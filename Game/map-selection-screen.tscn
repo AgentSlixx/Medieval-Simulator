@@ -1,0 +1,64 @@
+[gd_scene format=3 uid="uid://dskpojkp8joia"]
+
+[node name="Scene Selection" type="Node2D" unique_id=1157667865]
+
+[node name="Button Manager" type="Node" parent="." unique_id=709424880]
+
+[node name="Control" type="Control" parent="." unique_id=904284907]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Second Punic War" type="Button" parent="Control" unique_id=158225894]
+layout_mode = 0
+offset_left = 262.0
+offset_top = 45.0
+offset_right = 582.0
+offset_bottom = 110.0
+scale = Vector2(2.26, 1)
+
+[node name="Trojan War" type="Button" parent="Control" unique_id=912169130]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.039
+anchor_top = 0.062000003
+anchor_right = 0.12100001
+anchor_bottom = 0.062000003
+offset_left = 276.00003
+offset_top = 141.0
+offset_right = 596.0
+offset_bottom = 206.0
+scale = Vector2(1.506, 1)
+
+[node name="100 Years War" type="Button" parent="Control" unique_id=53787002]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.47300002
+anchor_top = 0.35000002
+anchor_right = 0.58900005
+anchor_bottom = 0.5
+offset_left = 391.00003
+offset_top = 274.0
+offset_right = 691.0
+offset_bottom = 381.99997
+scale = Vector2(1.5066667, 1)
+
+[node name="Troy" type="Button" parent="Control" unique_id=1337026149]
+custom_minimum_size = Vector2(0.025, 0)
+layout_mode = 0
+offset_left = 430.0
+offset_top = 434.0
+offset_right = 730.0
+offset_bottom = 484.0
+
+[node name="Alexander the Great" type="Button" parent="Control" unique_id=808934016]
+custom_minimum_size = Vector2(0.025, 0)
+layout_mode = 0
+offset_left = 424.0
+offset_top = 561.0
+offset_right = 724.0
+offset_bottom = 611.0
+offset_transform_position = Vector2(-0.095, 0)
