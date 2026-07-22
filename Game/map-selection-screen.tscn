@@ -1,6 +1,20 @@
 [gd_scene format=3 uid="uid://dskpojkp8joia"]
 
+[ext_resource type="Texture2D" uid="uid://k6p52j7nny4" path="res://istockphoto-1346709051-612x612.jpg" id="1_lwrxs"]
+
 [node name="Scene Selection" type="Node2D" unique_id=1157667865]
+
+[node name="Control2" type="Control" parent="." unique_id=1771626186]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureRect" type="TextureRect" parent="Control2" unique_id=943828255]
+layout_mode = 0
+offset_right = 1154.0
+offset_bottom = 652.0
+texture = ExtResource("1_lwrxs")
 
 [node name="Control" type="Control" parent="." unique_id=904284907]
 layout_mode = 3
@@ -24,20 +38,43 @@ alignment = 1
 [node name="Troy" type="Button" parent="Control/VBoxContainer" unique_id=1337026149]
 custom_minimum_size = Vector2(360, 80)
 layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "Trojan War"
 
 [node name="100 Years War" type="Button" parent="Control/VBoxContainer" unique_id=53787002]
 custom_minimum_size = Vector2(360, 80)
 layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "100 Years War"
 
 [node name="Alexander the Great" type="Button" parent="Control/VBoxContainer" unique_id=808934016]
 custom_minimum_size = Vector2(360, 80)
 layout_mode = 2
 offset_transform_position = Vector2(-0.095, 0)
+theme_override_font_sizes/font_size = 26
+text = "Wars of Alexander the Great"
 
 [node name="Second Punic War" type="Button" parent="Control/VBoxContainer" unique_id=158225894]
 custom_minimum_size = Vector2(360, 80)
 layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "Second Punic War"
 
-[node name="Trojan War" type="Button" parent="Control/VBoxContainer" unique_id=912169130]
+[node name="First Crusade" type="Button" parent="Control/VBoxContainer" unique_id=912169130]
 custom_minimum_size = Vector2(360, 80)
 layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "The First Crusade"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Control" unique_id=1409074819]
+layout_mode = 0
+offset_left = 66.0
+offset_top = 504.0
+offset_right = 274.0
+offset_bottom = 584.0
+
+[node name="Button" type="Button" parent="Control/HBoxContainer" unique_id=1194005056]
+custom_minimum_size = Vector2(200, 80)
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "Back"
