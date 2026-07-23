@@ -10,8 +10,16 @@
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_456wl"]
 bg_color = Color(0.6, 0.6, 0.6, 0)
 border_width_left = 10
-border_color = Color(0.8870018, 0.85827667, 0.8640501, 1)
+border_color = Color(1, 0.8627451, 0.47058824, 1)
 border_blend = true
+corner_radius_top_left = 8
+corner_radius_bottom_left = 8
+corner_detail = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_i5w3n"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+border_width_left = 10
+border_color = Color(1, 0.8627451, 0.47058824, 1)
 corner_radius_top_left = 8
 corner_radius_bottom_left = 8
 corner_detail = 20
@@ -25,16 +33,12 @@ default_font_size = 0
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_oqq08"]
 bg_color = Color(0.6, 0.6, 0.6, 0)
-border_width_left = 5
-border_width_top = 5
-border_width_right = 5
-border_width_bottom = 5
+border_width_left = 10
+border_color = Color(1, 0.8627451, 0.47058824, 1)
 border_blend = true
-corner_radius_top_left = 5
-corner_radius_top_right = 5
-corner_radius_bottom_right = 5
-corner_radius_bottom_left = 5
-corner_detail = 10
+corner_radius_top_left = 8
+corner_radius_bottom_left = 8
+corner_detail = 20
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_kka7e"]
 
@@ -43,6 +47,46 @@ corner_detail = 10
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wwee4"]
 bg_color = Color(0.6, 0.6, 0.6, 0)
 border_width_left = 10
+border_color = Color(1, 0.8627451, 0.47058824, 1)
+border_blend = true
+corner_radius_top_left = 8
+corner_radius_bottom_left = 8
+corner_detail = 20
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_456wl"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_i5w3n"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jtmo6"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+border_width_left = 10
+border_color = Color(1, 0.8627451, 0.47058824, 1)
+border_blend = true
+corner_radius_top_left = 8
+corner_radius_bottom_left = 8
+corner_detail = 20
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_jtmo6"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_af455"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dysuc"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+border_width_left = 10
+border_color = Color(1, 0.8627451, 0.47058824, 1)
+border_blend = true
+corner_radius_top_left = 8
+corner_radius_bottom_left = 8
+corner_detail = 20
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_pugm5"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_mklsv"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6gl2x"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+border_width_left = 10
+border_color = Color(1, 0.8627451, 0.47058824, 1)
 border_blend = true
 corner_radius_top_left = 8
 corner_radius_bottom_left = 8
@@ -63,6 +107,7 @@ offset_right = 763.0
 offset_bottom = 261.0
 theme_type_variation = &"FlatButton"
 theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
 theme_override_colors/font_hover_color = Color(1, 0.8627451, 0.47058824, 1)
 theme_override_colors/font_hover_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
 theme_override_constants/outline_size = 10
@@ -70,6 +115,7 @@ theme_override_font_sizes/font_size = 20
 theme_override_styles/normal = SubResource("StyleBoxEmpty_spu7w")
 theme_override_styles/pressed = SubResource("StyleBoxEmpty_dysuc")
 theme_override_styles/hover = SubResource("StyleBoxFlat_456wl")
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_i5w3n")
 text = "CONTINUE CAMPAIGN"
 
 [node name="select-scenario-button" type="Button" parent="." unique_id=651655506]
@@ -79,6 +125,10 @@ offset_right = 763.0
 offset_bottom = 317.0
 theme = SubResource("Theme_lcuor")
 theme_type_variation = &"FlatButton"
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
 theme_override_constants/outline_size = 10
 theme_override_font_sizes/font_size = 20
 theme_override_styles/normal = SubResource("StyleBoxEmpty_oqq08")
@@ -92,6 +142,10 @@ offset_top = 327.0
 offset_right = 763.0
 offset_bottom = 373.0
 theme_type_variation = &"FlatButton"
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 0.8980392, 0.47058824, 1)
 theme_override_constants/outline_size = 10
 theme_override_font_sizes/font_size = 20
 theme_override_styles/normal = SubResource("StyleBoxEmpty_kka7e")
@@ -104,6 +158,16 @@ offset_left = 401.0
 offset_top = 383.0
 offset_right = 763.0
 offset_bottom = 429.0
+theme_type_variation = &"FlatButton"
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxEmpty_456wl")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_i5w3n")
+theme_override_styles/hover = SubResource("StyleBoxFlat_jtmo6")
 text = "SETTINGS"
 
 [node name="credits-game-button" type="Button" parent="." unique_id=203469794]
@@ -111,6 +175,16 @@ offset_left = 401.0
 offset_top = 439.0
 offset_right = 763.0
 offset_bottom = 485.0
+theme_type_variation = &"FlatButton"
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxEmpty_jtmo6")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_af455")
+theme_override_styles/hover = SubResource("StyleBoxFlat_dysuc")
 text = "CREDITS"
 
 [node name="exit-game-button" type="Button" parent="." unique_id=1056459422]
@@ -118,6 +192,16 @@ offset_left = 401.0
 offset_top = 495.0
 offset_right = 763.0
 offset_bottom = 541.0
+theme_type_variation = &"FlatButton"
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxEmpty_pugm5")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_mklsv")
+theme_override_styles/hover = SubResource("StyleBoxFlat_6gl2x")
 text = "EXIT"
 
 [node name="TextureButton" type="TextureButton" parent="." unique_id=626630209]
