@@ -1,5 +1,8 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1784740539
-icon.svg::CompressedTexture2D::4850891188419465756::1784635964::1784635964::1::::<><><>0<>0<>ab1ffb401245d682c43bb05a2190096b<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-istockphoto-1346709051-612x612.jpg::CompressedTexture2D::22554409087363529::1784725518::1784725518::1::::<><><>0<>0<>3b8ef906dea69804d4cb420f5a99dce8<>res://.godot/imported/istockphoto-1346709051-612x612.jpg-0c871280a9f8cd7ffdaf9f446935d56e.ctex::
-map-selection-screen.tscn::PackedScene::8444241258994845440::1784726493::0::1::::<><><>0<>0<><>::uid://k6p52j7nny4::::res://istockphoto-1346709051-612x612.jpg
+::res://::1784805966
+map-selection-screen.tscn::PackedScene::8444241258994845440::1784805931::0::1::::<><><>0<>0<><>::uid://k6p52j7nny4::::res://map-selection-screen-assets/istockphoto-1346709051-612x612.jpg
+start-screen.tscn::PackedScene::2344789841409544261::1784805656::0::1::::<><><>0<>0<><>::uid://cgf3n6e8c68s8::::res://start-screen-assets/start_screen_background.png
+::res://map-selection-screen-assets/::1784738863
+istockphoto-1346709051-612x612.jpg::CompressedTexture2D::22554409087363529::1784735903::1784738863::1::::<><><>0<>0<>90750b095ba4f91d91396bcb5a33a3bf<>res://.godot/imported/istockphoto-1346709051-612x612.jpg-289454b40497d0e372f6c4e33e983c34.ctex::
+::res://start-screen-assets/::1784738841
+start_screen_background.png::CompressedTexture2D::5206021245009290945::1784738505::1784738841::1::::<><><>0<>0<>a45602cc15d01a3e13d6063e30b12dab<>res://.godot/imported/start_screen_background.png-d935f54dcdd0f2fc85be4eabf3874e8d.ctex::

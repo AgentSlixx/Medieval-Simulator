@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://dskpojkp8joia"]
 
-[ext_resource type="Texture2D" uid="uid://k6p52j7nny4" path="res://istockphoto-1346709051-612x612.jpg" id="1_lwrxs"]
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_mm15w"]
+load_path = "res://.godot/imported/istockphoto-1346709051-612x612.jpg-289454b40497d0e372f6c4e33e983c34.ctex"
 
 [node name="Scene Selection" type="Node2D" unique_id=1157667865]
 
@@ -14,7 +15,7 @@ offset_bottom = 40.0
 layout_mode = 0
 offset_right = 1154.0
 offset_bottom = 652.0
-texture = ExtResource("1_lwrxs")
+texture = SubResource("CompressedTexture2D_mm15w")
 
 [node name="Control" type="Control" parent="." unique_id=904284907]
 layout_mode = 3
