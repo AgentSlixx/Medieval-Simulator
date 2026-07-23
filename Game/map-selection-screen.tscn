@@ -1,9 +1,12 @@
 [gd_scene format=3 uid="uid://dskpojkp8joia"]
 
+[ext_resource type="Script" uid="uid://fdksrdd6ucbv" path="res://map_selection_screen.gd" id="1_lwrxs"]
+
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_mm15w"]
 load_path = "res://.godot/imported/istockphoto-1346709051-612x612.jpg-289454b40497d0e372f6c4e33e983c34.ctex"
 
 [node name="Scene Selection" type="Node2D" unique_id=1157667865]
+script = ExtResource("1_lwrxs")
 
 [node name="Control2" type="Control" parent="." unique_id=1771626186]
 layout_mode = 3
@@ -74,8 +77,10 @@ offset_top = 504.0
 offset_right = 274.0
 offset_bottom = 584.0
 
-[node name="Button" type="Button" parent="Control/HBoxContainer" unique_id=1194005056]
+[node name="Back" type="Button" parent="Control/HBoxContainer" unique_id=1194005056]
 custom_minimum_size = Vector2(200, 80)
 layout_mode = 2
 theme_override_font_sizes/font_size = 26
 text = "Back"
+
+[connection signal="pressed" from="Control/HBoxContainer/Back" to="." method="_on_back_pressed"]

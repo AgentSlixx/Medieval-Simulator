@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://8n3l1drfrmvt"]
 
+[ext_resource type="Script" uid="uid://carfhujlvonsb" path="res://start_screen.gd" id="1_456wl"]
 [ext_resource type="Texture2D" uid="uid://cgf3n6e8c68s8" path="res://start-screen-assets/start_screen_background.png" id="1_oqq08"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_spu7w"]
@@ -48,6 +49,7 @@ corner_radius_bottom_left = 8
 corner_detail = 20
 
 [node name="background" type="Node2D" unique_id=1707268200]
+script = ExtResource("1_456wl")
 
 [node name="bckgd-photo" type="Sprite2D" parent="." unique_id=1447430613]
 position = Vector2(577, 324.49997)
@@ -123,3 +125,5 @@ offset_left = 74.0
 offset_top = 86.0
 offset_right = 368.0
 offset_bottom = 161.0
+
+[connection signal="pressed" from="select-scenario-button" to="." method="_on_selectscenariobutton_pressed"]
