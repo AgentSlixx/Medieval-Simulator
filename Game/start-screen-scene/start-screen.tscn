@@ -278,14 +278,14 @@ text = "EXIT"
 libraries/ = SubResource("AnimationLibrary_spu7w")
 
 [node name="pole" type="Sprite2D" parent="." unique_id=195946074]
-position = Vector2(119.09868, 283.15497)
+position = Vector2(126.56476, 279.18268)
 rotation = 0.18325958
 scale = Vector2(1.4158777, 1.0023935)
 texture = ExtResource("3_ulqph")
 
 [node name="flag" type="Sprite2D" parent="." unique_id=1618121177]
 material = SubResource("ShaderMaterial_laffn")
-position = Vector2(55.22036, 144.89507)
+position = Vector2(62.68644, 140.92273)
 rotation = 0.13788101
 scale = Vector2(1.3246282, 0.9534292)
 texture = ExtResource("5_oqyym")
