@@ -6,7 +6,12 @@
 [ext_resource type="Shader" uid="uid://b3mc7lfg00gw7" path="res://start-screen-scene/start-screen.gdshader" id="4_r7np0"]
 [ext_resource type="Texture2D" uid="uid://ccjuho31hshpw" path="res://start-screen-assets/flag.png" id="5_oqyym"]
 [ext_resource type="Shader" uid="uid://ch6u3rlytk2gw" path="res://start-screen-scene/smoke_1.gdshader" id="6_ulqph"]
-[ext_resource type="Texture2D" uid="uid://c74btegi7dayx" path="res://start-screen-assets/smoke_asset_2.png" id="7_ulqph"]
+[ext_resource type="Texture2D" uid="uid://drwfnnuyn8g81" path="res://start-screen-assets/smoke-asset-4.png" id="7_r7np0"]
+[ext_resource type="Texture2D" uid="uid://c4vs1w4b5ws4u" path="res://start-screen-assets/smoke-asset-7.png" id="8_oqyym"]
+[ext_resource type="Texture2D" uid="uid://oiflnutn0fun" path="res://start-screen-assets/smoke-asset-5.png" id="8_r7np0"]
+[ext_resource type="Texture2D" uid="uid://2sdatswfwt07" path="res://start-screen-assets/smoke-asset-8.png" id="9_lnp7d"]
+[ext_resource type="Texture2D" uid="uid://cfi7x1kba4kf1" path="res://start-screen-assets/smoke-asset-9.png" id="11_aawdv"]
+[ext_resource type="Texture2D" uid="uid://bv33nlnn4blml" path="res://start-screen-assets/smoke-asset-10.png" id="12_dfaad"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_spu7w"]
 
@@ -155,7 +160,56 @@ shader_parameter/amplitude_y = 4.0
 shader_parameter/frequency = 3.0
 shader_parameter/speed = 4.0
 
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_r7np0"]
+shader = ExtResource("6_ulqph")
+shader_parameter/amplitude_x = 1.0
+shader_parameter/amplitude_y = 6.0
+shader_parameter/frequency = 3.0
+shader_parameter/speed = 2.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_aawdv"]
+shader = ExtResource("6_ulqph")
+shader_parameter/amplitude_x = 10.0
+shader_parameter/amplitude_y = 3.0
+shader_parameter/frequency = 3.0
+shader_parameter/speed = 4.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_fx2e0"]
+shader = ExtResource("6_ulqph")
+shader_parameter/amplitude_x = 10.0
+shader_parameter/amplitude_y = 3.0
+shader_parameter/frequency = 3.0
+shader_parameter/speed = 4.0
+
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_lcuor"]
+shader = ExtResource("6_ulqph")
+shader_parameter/amplitude_x = 10.0
+shader_parameter/amplitude_y = 3.0
+shader_parameter/frequency = 3.0
+shader_parameter/speed = 1.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_j10ka"]
+shader = ExtResource("6_ulqph")
+shader_parameter/amplitude_x = 10.0
+shader_parameter/amplitude_y = 3.0
+shader_parameter/frequency = 3.0
+shader_parameter/speed = 1.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_5pom5"]
+shader = ExtResource("6_ulqph")
+shader_parameter/amplitude_x = 10.0
+shader_parameter/amplitude_y = 3.0
+shader_parameter/frequency = 3.0
+shader_parameter/speed = 1.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_3e7dv"]
+shader = ExtResource("6_ulqph")
+shader_parameter/amplitude_x = 15.0
+shader_parameter/amplitude_y = 3.0
+shader_parameter/frequency = 3.0
+shader_parameter/speed = 1.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_6a060"]
 shader = ExtResource("6_ulqph")
 shader_parameter/amplitude_x = 10.0
 shader_parameter/amplitude_y = 3.0
@@ -292,12 +346,58 @@ texture = ExtResource("5_oqyym")
 centered = false
 offset = Vector2(5, -2)
 
-[node name="smoke_asset_1" type="Sprite2D" parent="." unique_id=1148328674]
+[node name="smoke-1" type="Sprite2D" parent="." unique_id=861479097]
+material = SubResource("ShaderMaterial_r7np0")
+position = Vector2(1000.00006, 125.000015)
+scale = Vector2(2.2375, 1.9228837)
+texture = ExtResource("7_r7np0")
+
+[node name="smoke-2" type="Sprite2D" parent="." unique_id=2046068006]
+material = SubResource("ShaderMaterial_aawdv")
+position = Vector2(360, 253)
+scale = Vector2(0.61769503, 0.4314854)
+texture = ExtResource("8_oqyym")
+
+[node name="smoke-3" type="Sprite2D" parent="." unique_id=1382803082]
+material = SubResource("ShaderMaterial_fx2e0")
+position = Vector2(866, 137)
+scale = Vector2(0.7543104, 0.601614)
+texture = ExtResource("9_lnp7d")
+
+[node name="smoke-4" type="Sprite2D" parent="." unique_id=1494874376]
+position = Vector2(770.625, 225.375)
+scale = Vector2(1.5065796, 0.96036583)
+texture = ExtResource("8_r7np0")
+
+[node name="smoke-5" type="Sprite2D" parent="." unique_id=674506793]
 material = SubResource("ShaderMaterial_lcuor")
-position = Vector2(1063.007, 134.21512)
-rotation = -0.08726646
-scale = Vector2(0.5621679, 0.65944886)
-texture = ExtResource("7_ulqph")
+position = Vector2(563.25, 281.49997)
+scale = Vector2(7.827273, 4.0597825)
+texture = ExtResource("11_aawdv")
+
+[node name="smoke-6" type="Sprite2D" parent="." unique_id=1211825851]
+material = SubResource("ShaderMaterial_j10ka")
+position = Vector2(500, 85)
+scale = Vector2(3.8196974, 3.0923913)
+texture = ExtResource("11_aawdv")
+
+[node name="smoke-7" type="Sprite2D" parent="." unique_id=281986573]
+material = SubResource("ShaderMaterial_5pom5")
+position = Vector2(285, 268)
+scale = Vector2(1, 0.7407932)
+texture = ExtResource("12_dfaad")
+
+[node name="smoke-8" type="Sprite2D" parent="." unique_id=1192027204]
+material = SubResource("ShaderMaterial_3e7dv")
+position = Vector2(873, 212)
+scale = Vector2(1.1384364, 0.6699717)
+texture = ExtResource("12_dfaad")
+
+[node name="smoke-9" type="Sprite2D" parent="." unique_id=589497797]
+material = SubResource("ShaderMaterial_6a060")
+position = Vector2(940, 250.5)
+scale = Vector2(0.69381106, 0.2903683)
+texture = ExtResource("12_dfaad")
 
 [connection signal="pressed" from="select-scenario-button" to="." method="_on_selectscenariobutton_pressed"]
 [connection signal="pressed" from="exit-game-button" to="." method="_on_exitgamebutton_pressed"]
