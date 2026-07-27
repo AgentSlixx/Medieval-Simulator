@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Alexander the Great",
+    "born": "356 BC",
+    "died": "323 BC",
+    "description": "King of Macedon and military commander."
+  },
+  {
+    "name": "Julius Caesar",
+    "born": "100 BC",
+    "died": "44 BC",
+    "description": "Roman general and statesman."
+  },
+  {
+    "name": "Sun Tzu",
+    "born": "c.544 BC",
+    "died": "c.496 BC",
+    "description": "Traditional author of The Art of War."
+  },
+  {
+    "name": "Hannibal Barca",
+    "born": "247 BC",
+    "died": "183 BC",
+    "description": "Carthaginian general."
+  },
+  {
+    "name": "Saladin",
+    "born": "1137",
+    "died": "1193",
+    "description": "Sultan who fought in the Crusades."
+  }
+]

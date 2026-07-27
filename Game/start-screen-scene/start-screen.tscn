@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://8n3l1drfrmvt"]
 
 [ext_resource type="Script" uid="uid://carfhujlvonsb" path="res://start-screen-scene/start_screen.gd" id="1_ri834"]
-[ext_resource type="Texture2D" uid="uid://80cajk5tyaw" path="res://start-screen-assets/start_screen_backgroung.png" id="2_ulqph"]
+[ext_resource type="Texture2D" uid="uid://dffeah6iht6g1" path="res://start-screen-assets/ChatGPT Image Jul 27, 2026, 10_54_42 AM.png" id="2_2ki8u"]
 [ext_resource type="Texture2D" uid="uid://jnwv2sfi7a03" path="res://start-screen-assets/pole.png" id="3_ulqph"]
 [ext_resource type="Shader" uid="uid://b3mc7lfg00gw7" path="res://start-screen-scene/start-screen.gdshader" id="4_r7np0"]
 [ext_resource type="Texture2D" uid="uid://ccjuho31hshpw" path="res://start-screen-assets/flag.png" id="5_oqyym"]
@@ -12,6 +12,122 @@
 [ext_resource type="Texture2D" uid="uid://2sdatswfwt07" path="res://start-screen-assets/smoke-asset-8.png" id="9_lnp7d"]
 [ext_resource type="Texture2D" uid="uid://cfi7x1kba4kf1" path="res://start-screen-assets/smoke-asset-9.png" id="11_aawdv"]
 [ext_resource type="Texture2D" uid="uid://bv33nlnn4blml" path="res://start-screen-assets/smoke-asset-10.png" id="12_dfaad"]
+[ext_resource type="Texture2D" uid="uid://by0kun1ci8ajb" path="res://start-screen-assets/title-asset.png" id="13_2ki8u"]
+[ext_resource type="FontFile" uid="uid://blc0j1suisswr" path="res://fonts/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/linux-libertine/LinLibertine_5.3.0_2012_07_02/LinLibertineOTF_5.3.0_2012_07_02/LinLibertine_M.otf" id="14_l7vci"]
+
+[sub_resource type="Animation" id="Animation_jtmo6"]
+length = 5.233333
+loop_mode = 1
+
+[sub_resource type="Animation" id="Animation_laffn"]
+resource_name = "flag-waving"
+length = 5.233333
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = false
+tracks/0/path = NodePath("flag:rotation")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.23333347, 0.3666668, 0.5000001, 0.63333344, 0.76666677, 0.9000001, 1.0333335, 1.1666667, 1.3000002, 1.4333334, 1.5666668, 1.7, 1.8333335, 1.9666667, 2.1000001, 2.2333333, 2.3666668, 2.5, 2.6333334, 2.7666667, 2.9, 3.0333333, 3.1666667, 3.3, 3.4333332, 3.5666664, 3.7, 3.8333333, 3.9666665, 4.0999994, 4.2333336, 4.366667, 4.5, 4.633333, 4.7666674),
+"transitions": PackedFloat32Array(5.2780285, 5.2780285, 5.2780285, 5.2780285, 5.2780285, 5.2780294, 5.2780294, 5.2780294, 5.2780294, 5.2780294, 5.2780294, 5.2780294, 5.2780294, 5.2780294, 5.2780294, 5.2780294, 5.2780294, 5.2780294, 5.2780294, 5.2780294, 5.2780294, 5.2780294, 5.2780294, 5.2780294, 5.2780294, 5.2780266, 5.2780266, 5.2780266, 5.2780266, 5.2780266, 5.2780266, 5.2780266, 5.2780266, 5.2780266, 5.2780266),
+"update": 0,
+"values": [0.10471975511965978, 0.10995574287564296, 0.11519173063162616, 0.12042771838760834, 0.12566370614359154, 0.1308996938995747, 0.1361356816555579, 0.14137166941154108, 0.14660765716752328, 0.1518436449235065, 0.15707963267948966, 0.16231562043547285, 0.16755160819145604, 0.17278759594743823, 0.17802358370342142, 0.1832595714594046, 0.1884955592153878, 0.193731546971371, 0.1884955592153878, 0.1832595714594046, 0.17802358370342142, 0.17278759594743823, 0.16755160819145604, 0.16231562043547285, 0.15707963267948966, 0.1518436449235065, 0.14660765716752328, 0.14137166941154108, 0.1361356816555579, 0.1308996938995747, 0.12566370614359154, 0.12042771838760834, 0.11519173063162616, 0.10995574287564296, 0.10471975511965978]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = false
+tracks/1/path = NodePath("flag:scale")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.1333332, 0.99999994, 2.0333333, 3.0333333, 4.0333333, 5.0333333),
+"transitions": PackedFloat32Array(12.996017, 12.996017, 12.996028, 12.996028, 12.996017, 12.996026),
+"update": 0,
+"values": [Vector2(1.015, 1.015), Vector2(1.02, 1.02), Vector2(1.01, 1.01), Vector2(1, 1), Vector2(1.01, 1.01), Vector2(1, 1)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = false
+tracks/2/path = NodePath("flag:position")
+tracks/2/interp = 2
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.099999994, 0.2, 0.3, 0.39999998, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9000001, 2, 2.1000001, 2.2, 2.3, 2.4, 2.5, 2.6000001, 2.7, 2.8, 2.9, 3, 3.1000001, 3.2, 3.3, 3.3999999, 3.4999998, 3.6, 3.6999998, 3.7999997, 3.8999996, 4, 4.1, 4.2, 4.2999997, 4.3999996, 4.5, 4.6, 4.7, 4.7999997, 4.8999996),
+"transitions": PackedFloat32Array(5.464162, 5.4641614, 5.464163, 5.4641585, 5.464163, 5.4641604, 5.4641585, 5.4641576, 5.4641595, 5.4641585, 5.464162, 5.4641585, 5.4641585, 5.4641585, 5.4641585, 5.4641585, 5.4641585, 5.464162, 5.4641614, 5.464163, 5.4641585, 5.464163, 5.4641604, 5.4641585, 5.4641576, 5.4641595, 5.4641585, 5.464162, 5.4641585, 5.4641585, 5.4641585, 5.4641585, 5.4641585, 5.4641585, 5.464162, 5.4641614, 5.464163, 5.4641585, 5.464163, 5.4641604, 5.4641585, 5.4641576, 5.4641595, 5.4641585, 5.464162, 5.4641585, 5.4641585, 5.4641585, 5.4641585, 5.4641585),
+"update": 0,
+"values": [Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_spu7w"]
+_data = {
+&"RESET": SubResource("Animation_jtmo6"),
+&"flag-waving": SubResource("Animation_laffn")
+}
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_r7np0"]
+shader = ExtResource("6_ulqph")
+shader_parameter/amplitude_x = 1.0
+shader_parameter/amplitude_y = 6.0
+shader_parameter/frequency = 3.0
+shader_parameter/speed = 2.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_aawdv"]
+shader = ExtResource("6_ulqph")
+shader_parameter/amplitude_x = 10.0
+shader_parameter/amplitude_y = 3.0
+shader_parameter/frequency = 3.0
+shader_parameter/speed = 4.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_fx2e0"]
+shader = ExtResource("6_ulqph")
+shader_parameter/amplitude_x = 10.0
+shader_parameter/amplitude_y = 3.0
+shader_parameter/frequency = 3.0
+shader_parameter/speed = 4.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_lcuor"]
+shader = ExtResource("6_ulqph")
+shader_parameter/amplitude_x = 10.0
+shader_parameter/amplitude_y = 3.0
+shader_parameter/frequency = 3.0
+shader_parameter/speed = 1.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_j10ka"]
+shader = ExtResource("6_ulqph")
+shader_parameter/amplitude_x = 10.0
+shader_parameter/amplitude_y = 3.0
+shader_parameter/frequency = 3.0
+shader_parameter/speed = 1.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_5pom5"]
+shader = ExtResource("6_ulqph")
+shader_parameter/amplitude_x = 10.0
+shader_parameter/amplitude_y = 3.0
+shader_parameter/frequency = 3.0
+shader_parameter/speed = 1.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_3e7dv"]
+shader = ExtResource("6_ulqph")
+shader_parameter/amplitude_x = 15.0
+shader_parameter/amplitude_y = 3.0
+shader_parameter/frequency = 3.0
+shader_parameter/speed = 1.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_6a060"]
+shader = ExtResource("6_ulqph")
+shader_parameter/amplitude_x = 10.0
+shader_parameter/amplitude_y = 3.0
+shader_parameter/frequency = 3.0
+shader_parameter/speed = 4.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_laffn"]
+shader = ExtResource("4_r7np0")
+shader_parameter/amplitude_x = 9.0
+shader_parameter/amplitude_y = 4.0
+shader_parameter/frequency = 3.0
+shader_parameter/speed = 4.0
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_spu7w"]
 
@@ -102,119 +218,9 @@ corner_radius_top_left = 8
 corner_radius_bottom_left = 8
 corner_detail = 20
 
-[sub_resource type="Animation" id="Animation_jtmo6"]
-length = 5.233333
-loop_mode = 1
-
-[sub_resource type="Animation" id="Animation_laffn"]
-resource_name = "flag-waving"
-length = 5.233333
-loop_mode = 1
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = false
-tracks/0/path = NodePath("flag:rotation")
-tracks/0/interp = 2
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0.23333347, 0.3666668, 0.5000001, 0.63333344, 0.76666677, 0.9000001, 1.0333335, 1.1666667, 1.3000002, 1.4333334, 1.5666668, 1.7, 1.8333335, 1.9666667, 2.1000001, 2.2333333, 2.3666668, 2.5, 2.6333334, 2.7666667, 2.9, 3.0333333, 3.1666667, 3.3, 3.4333332, 3.5666664, 3.7, 3.8333333, 3.9666665, 4.0999994, 4.2333336, 4.366667, 4.5, 4.633333, 4.7666674),
-"transitions": PackedFloat32Array(5.2780285, 5.2780285, 5.2780285, 5.2780285, 5.2780285, 5.2780294, 5.2780294, 5.2780294, 5.2780294, 5.2780294, 5.2780294, 5.2780294, 5.2780294, 5.2780294, 5.2780294, 5.2780294, 5.2780294, 5.2780294, 5.2780294, 5.2780294, 5.2780294, 5.2780294, 5.2780294, 5.2780294, 5.2780294, 5.2780266, 5.2780266, 5.2780266, 5.2780266, 5.2780266, 5.2780266, 5.2780266, 5.2780266, 5.2780266, 5.2780266),
-"update": 0,
-"values": [0.10471975511965978, 0.10995574287564296, 0.11519173063162616, 0.12042771838760834, 0.12566370614359154, 0.1308996938995747, 0.1361356816555579, 0.14137166941154108, 0.14660765716752328, 0.1518436449235065, 0.15707963267948966, 0.16231562043547285, 0.16755160819145604, 0.17278759594743823, 0.17802358370342142, 0.1832595714594046, 0.1884955592153878, 0.193731546971371, 0.1884955592153878, 0.1832595714594046, 0.17802358370342142, 0.17278759594743823, 0.16755160819145604, 0.16231562043547285, 0.15707963267948966, 0.1518436449235065, 0.14660765716752328, 0.14137166941154108, 0.1361356816555579, 0.1308996938995747, 0.12566370614359154, 0.12042771838760834, 0.11519173063162616, 0.10995574287564296, 0.10471975511965978]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = false
-tracks/1/path = NodePath("flag:scale")
-tracks/1/interp = 2
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0.1333332, 0.99999994, 2.0333333, 3.0333333, 4.0333333, 5.0333333),
-"transitions": PackedFloat32Array(12.996017, 12.996017, 12.996028, 12.996028, 12.996017, 12.996026),
-"update": 0,
-"values": [Vector2(1.015, 1.015), Vector2(1.02, 1.02), Vector2(1.01, 1.01), Vector2(1, 1), Vector2(1.01, 1.01), Vector2(1, 1)]
-}
-tracks/2/type = "value"
-tracks/2/imported = false
-tracks/2/enabled = false
-tracks/2/path = NodePath("flag:position")
-tracks/2/interp = 2
-tracks/2/loop_wrap = true
-tracks/2/keys = {
-"times": PackedFloat32Array(0, 0.099999994, 0.2, 0.3, 0.39999998, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9000001, 2, 2.1000001, 2.2, 2.3, 2.4, 2.5, 2.6000001, 2.7, 2.8, 2.9, 3, 3.1000001, 3.2, 3.3, 3.3999999, 3.4999998, 3.6, 3.6999998, 3.7999997, 3.8999996, 4, 4.1, 4.2, 4.2999997, 4.3999996, 4.5, 4.6, 4.7, 4.7999997, 4.8999996),
-"transitions": PackedFloat32Array(5.464162, 5.4641614, 5.464163, 5.4641585, 5.464163, 5.4641604, 5.4641585, 5.4641576, 5.4641595, 5.4641585, 5.464162, 5.4641585, 5.4641585, 5.4641585, 5.4641585, 5.4641585, 5.4641585, 5.464162, 5.4641614, 5.464163, 5.4641585, 5.464163, 5.4641604, 5.4641585, 5.4641576, 5.4641595, 5.4641585, 5.464162, 5.4641585, 5.4641585, 5.4641585, 5.4641585, 5.4641585, 5.4641585, 5.464162, 5.4641614, 5.464163, 5.4641585, 5.464163, 5.4641604, 5.4641585, 5.4641576, 5.4641595, 5.4641585, 5.464162, 5.4641585, 5.4641585, 5.4641585, 5.4641585, 5.4641585),
-"update": 0,
-"values": [Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133), Vector2(867, 133)]
-}
-
-[sub_resource type="AnimationLibrary" id="AnimationLibrary_spu7w"]
-_data = {
-&"RESET": SubResource("Animation_jtmo6"),
-&"flag-waving": SubResource("Animation_laffn")
-}
-
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_laffn"]
-shader = ExtResource("4_r7np0")
-shader_parameter/amplitude_x = 9.0
-shader_parameter/amplitude_y = 4.0
-shader_parameter/frequency = 3.0
-shader_parameter/speed = 4.0
-
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_r7np0"]
-shader = ExtResource("6_ulqph")
-shader_parameter/amplitude_x = 1.0
-shader_parameter/amplitude_y = 6.0
-shader_parameter/frequency = 3.0
-shader_parameter/speed = 2.0
-
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_aawdv"]
-shader = ExtResource("6_ulqph")
-shader_parameter/amplitude_x = 10.0
-shader_parameter/amplitude_y = 3.0
-shader_parameter/frequency = 3.0
-shader_parameter/speed = 4.0
-
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_fx2e0"]
-shader = ExtResource("6_ulqph")
-shader_parameter/amplitude_x = 10.0
-shader_parameter/amplitude_y = 3.0
-shader_parameter/frequency = 3.0
-shader_parameter/speed = 4.0
-
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_lcuor"]
-shader = ExtResource("6_ulqph")
-shader_parameter/amplitude_x = 10.0
-shader_parameter/amplitude_y = 3.0
-shader_parameter/frequency = 3.0
-shader_parameter/speed = 1.0
-
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_j10ka"]
-shader = ExtResource("6_ulqph")
-shader_parameter/amplitude_x = 10.0
-shader_parameter/amplitude_y = 3.0
-shader_parameter/frequency = 3.0
-shader_parameter/speed = 1.0
-
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_5pom5"]
-shader = ExtResource("6_ulqph")
-shader_parameter/amplitude_x = 10.0
-shader_parameter/amplitude_y = 3.0
-shader_parameter/frequency = 3.0
-shader_parameter/speed = 1.0
-
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_3e7dv"]
-shader = ExtResource("6_ulqph")
-shader_parameter/amplitude_x = 15.0
-shader_parameter/amplitude_y = 3.0
-shader_parameter/frequency = 3.0
-shader_parameter/speed = 1.0
-
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_6a060"]
-shader = ExtResource("6_ulqph")
-shader_parameter/amplitude_x = 10.0
-shader_parameter/amplitude_y = 3.0
-shader_parameter/frequency = 3.0
-shader_parameter/speed = 4.0
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2ki8u"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+corner_detail = 10
 
 [node name="background" type="Node2D" unique_id=1707268200]
 script = ExtResource("1_ri834")
@@ -222,7 +228,83 @@ script = ExtResource("1_ri834")
 [node name="bckgd-photo" type="Sprite2D" parent="." unique_id=1447430613]
 position = Vector2(577, 324.49997)
 scale = Vector2(0.82596284, 0.5784313)
-texture = ExtResource("2_ulqph")
+texture = ExtResource("2_2ki8u")
+
+[node name="flag-waving-animation-player" type="AnimationPlayer" parent="." unique_id=1726481200]
+libraries/ = SubResource("AnimationLibrary_spu7w")
+
+[node name="smoke-1" type="Sprite2D" parent="." unique_id=861479097]
+material = SubResource("ShaderMaterial_r7np0")
+position = Vector2(1000.00006, 125.000015)
+scale = Vector2(2.2375, 1.9228837)
+texture = ExtResource("7_r7np0")
+
+[node name="smoke-2" type="Sprite2D" parent="." unique_id=2046068006]
+material = SubResource("ShaderMaterial_aawdv")
+position = Vector2(360, 253)
+scale = Vector2(0.61769503, 0.4314854)
+texture = ExtResource("8_oqyym")
+
+[node name="smoke-3" type="Sprite2D" parent="." unique_id=1382803082]
+material = SubResource("ShaderMaterial_fx2e0")
+position = Vector2(866, 137)
+scale = Vector2(0.7543104, 0.601614)
+texture = ExtResource("9_lnp7d")
+
+[node name="smoke-4" type="Sprite2D" parent="." unique_id=1494874376]
+position = Vector2(770.625, 225.375)
+scale = Vector2(1.5065796, 0.96036583)
+texture = ExtResource("8_r7np0")
+
+[node name="smoke-5" type="Sprite2D" parent="." unique_id=674506793]
+material = SubResource("ShaderMaterial_lcuor")
+position = Vector2(563.25, 281.49997)
+scale = Vector2(7.827273, 4.0597825)
+texture = ExtResource("11_aawdv")
+
+[node name="smoke-6" type="Sprite2D" parent="." unique_id=1211825851]
+material = SubResource("ShaderMaterial_j10ka")
+position = Vector2(500, 85)
+scale = Vector2(3.8196974, 3.0923913)
+texture = ExtResource("11_aawdv")
+
+[node name="smoke-7" type="Sprite2D" parent="." unique_id=281986573]
+material = SubResource("ShaderMaterial_5pom5")
+position = Vector2(285, 268)
+scale = Vector2(1, 0.7407932)
+texture = ExtResource("12_dfaad")
+
+[node name="smoke-8" type="Sprite2D" parent="." unique_id=1192027204]
+material = SubResource("ShaderMaterial_3e7dv")
+position = Vector2(873, 212)
+scale = Vector2(1.1384364, 0.6699717)
+texture = ExtResource("12_dfaad")
+
+[node name="smoke-9" type="Sprite2D" parent="." unique_id=589497797]
+material = SubResource("ShaderMaterial_6a060")
+position = Vector2(940, 250.5)
+scale = Vector2(0.69381106, 0.2903683)
+texture = ExtResource("12_dfaad")
+
+[node name="title" type="Sprite2D" parent="." unique_id=2023229780]
+position = Vector2(580.5, 121.00001)
+scale = Vector2(0.4065934, 0.2804428)
+texture = ExtResource("13_2ki8u")
+
+[node name="pole" type="Sprite2D" parent="." unique_id=195946074]
+position = Vector2(126.56476, 279.18268)
+rotation = 0.18325956
+scale = Vector2(1.4158776, 1.0023935)
+texture = ExtResource("3_ulqph")
+
+[node name="flag" type="Sprite2D" parent="." unique_id=1618121177]
+material = SubResource("ShaderMaterial_laffn")
+position = Vector2(62.68644, 140.92273)
+rotation = 0.13788101
+scale = Vector2(1.3246282, 0.9534292)
+texture = ExtResource("5_oqyym")
+centered = false
+offset = Vector2(5, -2)
 
 [node name="continue-campaign-button" type="Button" parent="." unique_id=805300461]
 offset_left = 401.0
@@ -328,76 +410,20 @@ theme_override_styles/pressed = SubResource("StyleBoxEmpty_mklsv")
 theme_override_styles/hover = SubResource("StyleBoxFlat_6gl2x")
 text = "EXIT"
 
-[node name="flag-waving-animation-player" type="AnimationPlayer" parent="." unique_id=1726481200]
-libraries/ = SubResource("AnimationLibrary_spu7w")
-
-[node name="pole" type="Sprite2D" parent="." unique_id=195946074]
-position = Vector2(126.56476, 279.18268)
-rotation = 0.18325958
-scale = Vector2(1.4158777, 1.0023935)
-texture = ExtResource("3_ulqph")
-
-[node name="flag" type="Sprite2D" parent="." unique_id=1618121177]
-material = SubResource("ShaderMaterial_laffn")
-position = Vector2(62.68644, 140.92273)
-rotation = 0.13788101
-scale = Vector2(1.3246282, 0.9534292)
-texture = ExtResource("5_oqyym")
-centered = false
-offset = Vector2(5, -2)
-
-[node name="smoke-1" type="Sprite2D" parent="." unique_id=861479097]
-material = SubResource("ShaderMaterial_r7np0")
-position = Vector2(1000.00006, 125.000015)
-scale = Vector2(2.2375, 1.9228837)
-texture = ExtResource("7_r7np0")
-
-[node name="smoke-2" type="Sprite2D" parent="." unique_id=2046068006]
-material = SubResource("ShaderMaterial_aawdv")
-position = Vector2(360, 253)
-scale = Vector2(0.61769503, 0.4314854)
-texture = ExtResource("8_oqyym")
-
-[node name="smoke-3" type="Sprite2D" parent="." unique_id=1382803082]
-material = SubResource("ShaderMaterial_fx2e0")
-position = Vector2(866, 137)
-scale = Vector2(0.7543104, 0.601614)
-texture = ExtResource("9_lnp7d")
-
-[node name="smoke-4" type="Sprite2D" parent="." unique_id=1494874376]
-position = Vector2(770.625, 225.375)
-scale = Vector2(1.5065796, 0.96036583)
-texture = ExtResource("8_r7np0")
-
-[node name="smoke-5" type="Sprite2D" parent="." unique_id=674506793]
-material = SubResource("ShaderMaterial_lcuor")
-position = Vector2(563.25, 281.49997)
-scale = Vector2(7.827273, 4.0597825)
-texture = ExtResource("11_aawdv")
-
-[node name="smoke-6" type="Sprite2D" parent="." unique_id=1211825851]
-material = SubResource("ShaderMaterial_j10ka")
-position = Vector2(500, 85)
-scale = Vector2(3.8196974, 3.0923913)
-texture = ExtResource("11_aawdv")
-
-[node name="smoke-7" type="Sprite2D" parent="." unique_id=281986573]
-material = SubResource("ShaderMaterial_5pom5")
-position = Vector2(285, 268)
-scale = Vector2(1, 0.7407932)
-texture = ExtResource("12_dfaad")
-
-[node name="smoke-8" type="Sprite2D" parent="." unique_id=1192027204]
-material = SubResource("ShaderMaterial_3e7dv")
-position = Vector2(873, 212)
-scale = Vector2(1.1384364, 0.6699717)
-texture = ExtResource("12_dfaad")
-
-[node name="smoke-9" type="Sprite2D" parent="." unique_id=589497797]
-material = SubResource("ShaderMaterial_6a060")
-position = Vector2(940, 250.5)
-scale = Vector2(0.69381106, 0.2903683)
-texture = ExtResource("12_dfaad")
+[node name="quote-label" type="RichTextLabel" parent="." unique_id=146640226]
+offset_left = 405.0
+offset_top = 562.0
+offset_right = 745.0
+offset_bottom = 652.0
+theme_override_colors/default_color = Color(0.84705883, 0.70980394, 0.4, 1)
+theme_override_constants/paragraph_separation = 2
+theme_override_fonts/normal_font = ExtResource("14_l7vci")
+theme_override_font_sizes/normal_font_size = 13
+theme_override_styles/normal = SubResource("StyleBoxFlat_2ki8u")
+text = "It is not the size of the army in the fight, but the size of the fight in the army 
+- ALEXANDER THE GREAT"
+horizontal_alignment = 1
+custom_effects = [null]
 
 [connection signal="pressed" from="select-scenario-button" to="." method="_on_selectscenariobutton_pressed"]
 [connection signal="pressed" from="exit-game-button" to="." method="_on_exitgamebutton_pressed"]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "text": "It is not the size of the army in the fight, but the size of the fight in the army.",
+    "author": "Alexander the Great",
+    "scenario": "all",
+    "period": "Ancient Greece"
+  },
+  {
+    "id": 2,
+    "text": "Fortune favors the bold.",
+    "author": "Virgil",
+    "scenario": "all",
+    "period": "Roman Republic"
+  },
+  {
+    "id": 3,
+    "text": "The supreme art of war is to subdue the enemy without fighting.",
+    "author": "Sun Tzu",
+    "scenario": "all",
+    "period": "Ancient China"
+  },
+  {
+    "id": 4,
+    "text": "Veni, vidi, vici.",
+    "author": "Julius Caesar",
+    "scenario": "all",
+    "period": "Roman Republic"
+  },
+  {
+    "id": 5,
+    "text": "If you want peace, prepare for war.",
+    "author": "Publius Flavius Vegetius Renatus",
+    "scenario": "all",
+    "period": "Late Roman Empire"
+  },
+  {
+    "id": 6,
+    "text": "Cowards die many times before their deaths; the valiant never taste of death but once.",
+    "author": "William Shakespeare",
+    "scenario": "all",
+    "period": "Renaissance"
+  },
+  {
+    "id": 7,
+    "text": "In war, truth is the first casualty.",
+    "author": "Aeschylus",
+    "scenario": "all",
+    "period": "Ancient Greece"
+  },
+  {
+    "id": 8,
+    "text": "He conquers who endures.",
+    "author": "Aulus Persius Flaccus",
+    "scenario": "all",
+    "period": "Roman Empire"
+  },
+  {
+    "id": 9,
+    "text": "Audentes fortuna iuvat.",
+    "author": "Virgil",
+    "scenario": "all",
+    "period": "Roman Republic"
+  },
+  {
+    "id": 10,
+    "text": "Know yourself and know your enemy.",
+    "author": "Sun Tzu",
+    "scenario": "all",
+    "period": "Ancient China"
+  },
+  {
+    "id": 11,
+    "text": "The die is cast.",
+    "author": "Julius Caesar",
+    "scenario": "all",
+    "period": "Roman Republic"
+  },
+  {
+    "id": 12,
+    "text": "He who sweats more in training bleeds less in war.",
+    "author": "Spartan Proverb",
+    "scenario": "all",
+    "period": "Ancient Greece"
+  },
+  {
+    "id": 13,
+    "text": "An army marches on its stomach.",
+    "author": "Napoleon Bonaparte",
+    "scenario": "all",
+    "period": "Napoleonic Era"
+  },
+  {
+    "id": 14,
+    "text": "Impossible is a word to be found only in the dictionary of fools.",
+    "author": "Napoleon Bonaparte",
+    "scenario": "all",
+    "period": "Napoleonic Era"
+  },
+  {
+    "id": 15,
+    "text": "Victorious warriors win first and then go to war.",
+    "author": "Sun Tzu",
+    "scenario": "all",
+    "period": "Ancient China"
+  },
+  {
+    "id": 16,
+    "text": "No plan survives first contact with the enemy.",
+    "author": "Helmuth von Moltke the Elder",
+    "scenario": "all",
+    "period": "19th Century"
+  },
+  {
+    "id": 17,
+    "text": "The more you know, the less you fear.",
+    "author": "Alexander Suvorov",
+    "scenario": "all",
+    "period": "Russian Empire"
+  },
+  {
+    "id": 18,
+    "text": "Discipline is the soul of an army.",
+    "author": "George Washington",
+    "scenario": "all",
+    "period": "American Revolution"
+  }
+]
