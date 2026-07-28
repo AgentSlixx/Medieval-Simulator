@@ -1,5 +1,5 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1785144420
+::res://::1785180716
 new_game_option.gd::GDScript::6856262101669108523::1784808028::0::1::::<>Node<><>0<>0<><>::
 ::res://fonts/::1785141788
 ::res://fonts/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/::1785141819
@@ -96,18 +96,18 @@ LICENSE.txt::TextFile::-1::1785141791::0::1::::<><><>0<>0<><>::
 ::res://fonts/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/xolonium/xolonium-fonts-4.1/ttf/::1785141818
 Xolonium-Bold.ttf::FontFile::4167985684614408575::1785141791::1785141818::1::::<><><>0<>0<>4802ca957f89bd378d3d233c9d76108c<>res://.godot/imported/Xolonium-Bold.ttf-b4ba423897f91163b8966a0af7899618.fontdata::
 Xolonium-Regular.ttf::FontFile::3951762632438403737::1785141791::1785141818::1::::<><><>0<>0<>d819e97ed84d50c77ecc3c44523191a1<>res://.godot/imported/Xolonium-Regular.ttf-0a3bbbcb90abd7408cc211dcd1c5c260.fontdata::
-::res://Legacy-of-Empires-quotes-facts-tips-text/::1785143449
+::res://Legacy-of-Empires-quotes-facts-tips-text/::1785146624
 authors.json::JSON::-1::1785143449::0::1::::<><><>0<>0<><>::
 historical_facts.json::JSON::-1::1785143449::0::1::::<><><>0<>0<><>::
 loading_tips.json::JSON::-1::1785143449::0::1::::<><><>0<>0<><>::
-quotes.json::JSON::-1::1785143449::0::1::::<><><>0<>0<><>::
+quotes.json::JSON::-1::1785146604::0::1::::<><><>0<>0<><>::
 ::res://map-selection-screen-assets/::1784738863
 istockphoto-1346709051-612x612.jpg::CompressedTexture2D::22554409087363529::1784735903::1784738863::1::::<><><>0<>0<>90750b095ba4f91d91396bcb5a33a3bf<>res://.godot/imported/istockphoto-1346709051-612x612.jpg-289454b40497d0e372f6c4e33e983c34.ctex::
 ::res://map-selection-screen-scene/::1784823534
 map-selection-screen.tscn::PackedScene::8444241258994845440::1784823534::0::1::::<><><>0<>0<><>::uid://fdksrdd6ucbv::::res://map-selection-screen-scene/map_selection_screen.gd
 map_selection_screen.gd::GDScript::357777563380180847::1784823534::0::1::::<>Node2D<><>0<>0<><>::
-::res://scripts/::1785144872
-RandomTextScript.gd::GDScript::4087543386294069309::1785144872::0::1::::<>Node<><>0<>0<><>::
+::res://scripts/::1785149796
+RandomTextScript.gd::GDScript::4087543386294069309::1785149796::0::1::::<>Node<><>0<>0<><>::
 ::res://start-screen-assets/::1785142511
 ChatGPT Image Jul 27, 2026, 10_54_42 AM.png::CompressedTexture2D::7520771441936838314::1785142509::1785142511::1::::<><><>0<>0<>a97acdf71415155acfb77ca70f96e1ea<>res://.godot/imported/ChatGPT Image Jul 27, 2026, 10_54_42 AM.png-14243ea3229468d248b4b3d11ecd9d1e.ctex::
 flag.png::CompressedTexture2D::4933026074634285552::1784816955::1784816955::1::::<><><>0<>0<>ccbdab42f27cd046097fbf2552542c07<>res://.godot/imported/flag.png-2e269f94560881efdfa0db9504396f27.ctex::
@@ -120,8 +120,8 @@ smoke-asset-9.png::CompressedTexture2D::5142286005738916596::1785058235::1785058
 smoke-asset-10.png::CompressedTexture2D::3919912866792455175::1785058798::1785058798::1::::<><><>0<>0<>8536e8870bce7144cb4da9986c6e43d8<>res://.godot/imported/smoke-asset-10.png-5084a05620986131a5e65f85966642e5.ctex::
 start-screen-background.png::CompressedTexture2D::3537384693130135851::1785140357::1785140435::1::::<><><>0<>0<>f58f3e7a6c7fa5a0e946de74fb297356<>res://.godot/imported/start-screen-background.png-d6c63c262638261301d1c1340ed4df0e.ctex::
 title-asset.png::CompressedTexture2D::4123205983734460795::1785140138::1785140139::1::::<><><>0<>0<>254bfd1c3bcacaa3a8d9e0783bd0cc07<>res://.godot/imported/title-asset.png-eaa64715cf517c0ce249f465008d8b0b.ctex::
-::res://start-screen-scene/::1785144872
+::res://start-screen-scene/::1785149796
 smoke_1.gdshader::Shader::5329424236319014286::1785140406::0::1::::<><><>0<>0<><>::
 start-screen.gdshader::Shader::4376660003785099644::1785140532::0::1::::<><><>0<>0<><>::
-start-screen.tscn::PackedScene::2344789841409544261::1785144872::0::1::::<><><>0<>0<><>::uid://carfhujlvonsb::::res://start-screen-scene/start_screen.gd<>uid://dffeah6iht6g1::::res://start-screen-assets/ChatGPT Image Jul 27, 2026, 10_54_42 AM.png<>uid://jnwv2sfi7a03::::res://start-screen-assets/pole.png<>uid://b3mc7lfg00gw7::::res://start-screen-scene/start-screen.gdshader<>uid://ccjuho31hshpw::::res://start-screen-assets/flag.png<>uid://ch6u3rlytk2gw::::res://start-screen-scene/smoke_1.gdshader<>uid://drwfnnuyn8g81::::res://start-screen-assets/smoke-asset-4.png<>uid://c4vs1w4b5ws4u::::res://start-screen-assets/smoke-asset-7.png<>uid://oiflnutn0fun::::res://start-screen-assets/smoke-asset-5.png<>uid://2sdatswfwt07::::res://start-screen-assets/smoke-asset-8.png<>uid://cfi7x1kba4kf1::::res://start-screen-assets/smoke-asset-9.png<>uid://bv33nlnn4blml::::res://start-screen-assets/smoke-asset-10.png<>uid://by0kun1ci8ajb::::res://start-screen-assets/title-asset.png<>uid://blc0j1suisswr::::res://fonts/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/linux-libertine/LinLibertine_5.3.0_2012_07_02/LinLibertineOTF_5.3.0_2012_07_02/LinLibertine_M.otf
-start_screen.gd::GDScript::4808252939625046137::1785144595::0::1::::<>Node2D<><>0<>0<><>::
+start-screen.tscn::PackedScene::2344789841409544261::1785149796::0::1::::<><><>0<>0<><>::uid://carfhujlvonsb::::res://start-screen-scene/start_screen.gd<>uid://dffeah6iht6g1::::res://start-screen-assets/ChatGPT Image Jul 27, 2026, 10_54_42 AM.png<>uid://jnwv2sfi7a03::::res://start-screen-assets/pole.png<>uid://b3mc7lfg00gw7::::res://start-screen-scene/start-screen.gdshader<>uid://ccjuho31hshpw::::res://start-screen-assets/flag.png<>uid://ch6u3rlytk2gw::::res://start-screen-scene/smoke_1.gdshader<>uid://drwfnnuyn8g81::::res://start-screen-assets/smoke-asset-4.png<>uid://c4vs1w4b5ws4u::::res://start-screen-assets/smoke-asset-7.png<>uid://oiflnutn0fun::::res://start-screen-assets/smoke-asset-5.png<>uid://2sdatswfwt07::::res://start-screen-assets/smoke-asset-8.png<>uid://cfi7x1kba4kf1::::res://start-screen-assets/smoke-asset-9.png<>uid://bv33nlnn4blml::::res://start-screen-assets/smoke-asset-10.png<>uid://by0kun1ci8ajb::::res://start-screen-assets/title-asset.png<>uid://blc0j1suisswr::::res://fonts/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/linux-libertine/LinLibertine_5.3.0_2012_07_02/LinLibertineOTF_5.3.0_2012_07_02/LinLibertine_M.otf
+start_screen.gd::GDScript::4808252939625046137::1785145892::0::1::::<>Node2D<><>0<>0<><>::

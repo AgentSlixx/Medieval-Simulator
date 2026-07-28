@@ -1,128 +1,485 @@
 [
   {
     "id": 1,
-    "text": "It is not the size of the army in the fight, but the size of the fight in the army.",
+    "text": "I am indebted to my father for living, but to my teacher for living well.",
     "author": "Alexander the Great",
-    "scenario": "all",
+    "scenario": "Wars of Alexander the Great",
     "period": "Ancient Greece"
   },
   {
     "id": 2,
+    "text": "But truly, if I were not Alexander, I would be Diogenes.",
+    "author": "Alexander the Great",
+    "scenario": "Wars of Alexander the Great",
+    "period": "Ancient Greece"
+  },
+  {
+    "id": 3,
+    "text": "Upon the conduct of each depends the fate of all.",
+    "author": "Alexander the Great",
+    "scenario": "Wars of Alexander the Great",
+    "period": "Ancient Greece"
+  },
+  {
+    "id": 4,
+    "text": "My treasure lies in my friends.",
+    "author": "Alexander the Great",
+    "scenario": "Wars of Alexander the Great",
+    "period": "Ancient Greece"
+  },
+  {
+    "id": 5,
+    "text": "Our enemies are Medes and Persians, men who for centuries have lived soft and luxurious lives; we of Macedon for generations past have been trained in the hard school of danger and war. Above all, we are free men, and they are slaves. There are Greek troops, to be sure, in Persian service — but how different is their cause from ours! They will be fighting for pay — and not much of at that; we, on the contrary, shall fight for Greece, and our hearts will be in it. As for our foreign troops — Thracians, Paeonians, Illyrians, Agrianes — they are the best and stoutest soldiers in Europe, and they will find as their opponents the slackest and softest of the tribes of Asia. And what, finally, of the two men in supreme command? You have Alexander, they — Darius!",
+    "author": "Alexander the Great",
+    "scenario": "Wars of Alexander the Great",
+    "period": "Ancient Greece"
+  },
+  {
+    "id": 6,
+    "text": "Now you fear punishment and beg for your lives, so I will let you free, if not for any other reason so that you can see the difference between a Greek king and a barbarian tyrant, so do not expect to suffer any harm from me. A king does not kill messengers.",
+    "author": "Alexander the Great",
+    "scenario": "Wars of Alexander the Great",
+    "period": "Ancient Greece"
+  }, 
+  {
+    "id": 7,
+    "text": "As for a limit to one’s labors, I, for one, do not recognize any for a high-minded man, except that the labors themselves should lead to noble accomplishments.",
+    "author": "Alexander the Great",
+    "scenario": "Wars of Alexander the Great",
+    "period": "Ancient Greece"
+  },
+  {
+    "id": 8,
+    "text": "Always be the best, my boy, the bravest, and hold your head high above the others.",
+    "author": "Peleus to his son Achilles",
+    "scenario": "Trojan War",
+    "period": "Ancient Greece"
+  },
+  {
+    "id": 9,
+    "text": "There is a time for many words, and there is also a time for sleep.",
+    "author": "Homeric proverb",
+    "scenario": "Trojan War",
+    "period": "Ancient Greece"
+  },
+  {
+    "id": 10,
+    "text": "A man who has been through bitter experiences and traveled far enjoys even his sufferings after a time.",
+    "author": "Odysseus",
+    "scenario": "Trojan War",
+    "period": "Ancient Greece"
+  },
+  {
+    "id": 11,
+    "text": "There is nothing alive more agonized than man.",
+    "author": "Zeus",
+    "scenario": "Trojan War",
+    "period": "Ancient Greece"
+  },
+  {
+    "id": 12,
+    "text": "The generation of men is just like that of leaves.",
+    "author": "Glauk",
+    "scenario": "Trojan War",
+    "period": "Ancient Greece"
+  },
+  {
+    "id": 13,
+    "text": "Even a brave man dies once.",
+    "author": "Hector",
+    "scenario": "Trojan War",
+    "period": "Ancient Greece"
+  },
+  {
+    "id": 14,
+    "text": "Let me at least not die without a struggle or without glory.",
+    "author": "Hector",
+    "scenario": "Trojan War",
+    "period": "Ancient Greece"
+  },
+  {
+    "id": 15,
+    "text": "One omen is best: to fight for one's country.",
+    "author": "Hector",
+    "scenario": "Trojan War",
+    "period": "Ancient Greece"
+  },
+  {
+    "id": 16,
+    "text": "No man escapes his destiny",
+    "author": "Achilles",
+    "scenario": "Trojan War",
+    "period": "Ancient Greece"
+  },
+  {
+    "id": 17,
+    "text": "War is the business of young men.",
+    "author": "Nestor",
+    "scenario": "Trojan War",
+    "period": "Ancient Greece"
+  },
+  {
+    "id": 18,
+    "text": "No man wins every battle.",
+    "author": "Odysseus",
+    "scenario": "Trojan War",
+    "period": "Ancient Greece"
+  },
+  {
+    "id": 19,
+    "text": "The fate of every man is fixed from the day of his birth",
+    "author": "Achilles",
+    "scenario": "Trojan War",
+    "period": "Ancient Greece"
+  },
+  {
+    "id": 20,
+    "text": "Nothing is more terrible than war between kindred peoples.",
+    "author": "Priam",
+    "scenario": "Trojan War",
+    "period": "Ancient Greece"
+  },
+  {
+    "id": 21,
+    "text": "The gods give and the gods take away.",
+    "author": "Priam",
+    "scenario": "Trojan War",
+    "period": "Ancient Greece"
+  },
+  {
+    "id": 22,
+    "text": "I am not afraid. I was born to do this.",
+    "author": "Joan of Arc",
+    "scenario": "100 years war",
+    "period": "Medieval Age"
+  },
+  {
+    "id": 23,
+    "text": "Men fight; God gives the victory.",
+    "author": "Joan of Arc",
+    "scenario": "100 years war",
+    "period": "Medieval Age"
+  },
+  {
+    "id": 24,
+    "text": "Act, and God will act.",
+    "author": "Joan of Arc",
+    "scenario": "100 years war",
+    "period": "Medieval Age"
+  },
+  {
+    "id": 25,
+    "text": "Hold the cross high so I may see it through the flames.",
+    "author": "Joan of Arc",
+    "scenario": "100 years war",
+    "period": "Medieval Age"
+  },
+  {
+    "id": 26,
+    "text": "Neither the kingdom of France nor I are for sale.",
+    "author": "Bertrand du Guesclin",
+    "scenario": "100 years war",
+    "period": "Medieval Age"
+  },
+  {
+    "id": 27,
+    "text": "The king's cause is my cause.",
+    "author": "Bertrand du Guesclin",
+    "scenario": "100 years war",
+    "period": "Medieval Age"
+  },
+  {
+    "id": 28,
+    "text": "It is our will to recover what is ours by right.",
+    "author": "Edward III",
+    "scenario": "100 years war",
+    "period": "Medieval Age"
+  },
+  {
+    "id": 29,
+    "text": "The English archers shot so wholly together that it seemed snow.",
+    "author": "Jean Froissart",
+    "scenario": "100 years war",
+    "period": "Medieval Age"
+  },
+  {
+    "id": 30,
+    "text": "The realm is stronger by wisdom than by force.",
+    "author": "Charles V",
+    "scenario": "100 years war",
+    "period": "Medieval Age"
+  },
+  {
+    "id": 31,
+    "text": "France has suffered enough.",
+    "author": "Charles VII",
+    "scenario": "100 years war",
+    "period": "Medieval Age"
+  },
+  {
+    "id": 32,
+    "text": "Aut viam inveniam aut faciam. - I will either find a way or make one.",
+    "author": "Hannibal Barca",
+    "scenario": "Second Punic War",
+    "period": "Ancient Rome"
+  },
+  {
+    "id": 33,
+    "text": "I swear so soon as age will permit... I will use fire and steel to arrest the destiny of Rome.",
+    "author": "Hannibal Barca's oath to his father Hamilcar",
+    "scenario": "Second Punic War",
+    "period": "Ancient Rome"
+  },
+  {
+    "id": 34,
+    "text": "Let us relieve them of their fears by giving them cause to fear us.",
+    "author": "Hannibal Barca",
+    "scenario": "Second Punic War",
+    "period": "Ancient Rome"
+  },
+  {
+    "id": 35,
+    "text": "The Romans are brave men, but they are only men.",
+    "author": "Hannibal Barca",
+    "scenario": "Second Punic War",
+    "period": "Ancient Rome"
+  },
+  {
+    "id": 36,
+    "text": "I have come to Italy not to make war on the Italians, but to aid the Italians against Rome.",
+    "author": "Hannibal Barca",
+    "scenario": "Second Punic War",
+    "period": "Ancient Rome"
+  },
+  {
+    "id": 37,
+    "text": "The Roman people do not ask how many enemies there are, but where they are.",
+    "author": "Scipio Africanus",
+    "scenario": "Second Punic War",
+    "period": "Ancient Rome"
+  },
+  {
+    "id": 38,
+    "text": "One who knows how to wait will in time accomplish everything.",
+    "author": "Fabius Maximus",
+    "scenario": "Second Punic War",
+    "period": "Ancient Rome"
+  },
+  {
+    "id": 39,
+    "text": "It is better to wear out the enemy than to rush against him.",
+    "author": "Fabius Maximus",
+    "scenario": "Second Punic War",
+    "period": "Ancient Rome"
+  },
+  {
+    "id": 40,
+    "text": "No witness is more dreadful than conscience.",
+    "author": "Polybius",
+    "scenario": "Second Punic War",
+    "period": "Ancient Greece"
+  },
+  {
+    "id": 41,
+    "text": "The best men are inclined to delay before taking action.",
+    "author": "Polybius",
+    "scenario": "Second Punic War",
+    "period": "Ancient Greece"
+  },
+  {
+    "id": 42,
+    "text": "Better to perish than to live as slaves.",
+    "author": "Livy",
+    "scenario": "Second Punic War",
+    "period": "Ancient Rome"
+  },
+  {
+    "id": 43,
+    "text": "Christ commands it.",
+    "author": "Pope Urban II",
+    "scenario": "First Crusade",
+    "period": "Medieval Europe"
+  },
+  {
+    "id": 44,
+    "text": "Whoever, for devotion alone, not to gain honor or money, goes to Jerusalem to liberate the Church of God, may substitute this journey for all penance.",
+    "author": "Pope Urban II",
+    "scenario": "First Crusade",
+    "period": "Medieval Europe"
+  },
+  {
+    "id": 45,
+    "text": "Deus vult! - God wills it!",
+    "author": "The Crusaders",
+    "scenario": "First Crusade",
+    "period": "Medieval Europe"
+  },
+  {
+    "id": 46,
+    "text": "I shall be called not king, but Advocate of the Holy Sepulchre.",
+    "author": "Godfrey of Bouillon",
+    "scenario": "First Crusade",
+    "period": "Medieval Europe"
+  },
+  {
+    "id": 47,
+    "text": "We who were Occidentals have now become Orientals.",
+    "author": "Fulcher of Chartres",
+    "scenario": "First Crusade",
+    "period": "Medieval Europe"
+  },
+  {
+    "id": 48,
+    "text": "He who was poor in the West has become rich in the East.",
+    "author": "Fulcher of Chartres",
+    "scenario": "First Crusade",
+    "period": "Medieval Europe"
+  },
+  {
+    "id": 49,
+    "text": "God instituted holy wars so that the knightly order might find a new way to salvation.",
+    "author": "Guibert de Nogent",
+    "scenario": "First Crusade",
+    "period": "Medieval Europe"
+  },
+  {
+    "id": 50,
     "text": "Fortune favors the bold.",
     "author": "Virgil",
     "scenario": "all",
     "period": "Roman Republic"
   },
   {
-    "id": 3,
+    "id": 51,
     "text": "The supreme art of war is to subdue the enemy without fighting.",
     "author": "Sun Tzu",
     "scenario": "all",
     "period": "Ancient China"
   },
   {
-    "id": 4,
+    "id": 52,
     "text": "Veni, vidi, vici.",
     "author": "Julius Caesar",
     "scenario": "all",
     "period": "Roman Republic"
   },
   {
-    "id": 5,
+    "id": 53,
     "text": "If you want peace, prepare for war.",
     "author": "Publius Flavius Vegetius Renatus",
     "scenario": "all",
     "period": "Late Roman Empire"
   },
   {
-    "id": 6,
+    "id": 54,
     "text": "Cowards die many times before their deaths; the valiant never taste of death but once.",
     "author": "William Shakespeare",
     "scenario": "all",
     "period": "Renaissance"
   },
   {
-    "id": 7,
-    "text": "In war, truth is the first casualty.",
-    "author": "Aeschylus",
-    "scenario": "all",
-    "period": "Ancient Greece"
-  },
-  {
-    "id": 8,
+    "id": 55,
     "text": "He conquers who endures.",
     "author": "Aulus Persius Flaccus",
     "scenario": "all",
     "period": "Roman Empire"
   },
   {
-    "id": 9,
+    "id": 56,
     "text": "Audentes fortuna iuvat.",
     "author": "Virgil",
     "scenario": "all",
     "period": "Roman Republic"
   },
   {
-    "id": 10,
-    "text": "Know yourself and know your enemy.",
-    "author": "Sun Tzu",
-    "scenario": "all",
-    "period": "Ancient China"
-  },
-  {
-    "id": 11,
+    "id": 57,
     "text": "The die is cast.",
     "author": "Julius Caesar",
     "scenario": "all",
     "period": "Roman Republic"
   },
   {
-    "id": 12,
+    "id": 58,
     "text": "He who sweats more in training bleeds less in war.",
     "author": "Spartan Proverb",
     "scenario": "all",
     "period": "Ancient Greece"
   },
   {
-    "id": 13,
+    "id": 59,
     "text": "An army marches on its stomach.",
     "author": "Napoleon Bonaparte",
     "scenario": "all",
     "period": "Napoleonic Era"
   },
   {
-    "id": 14,
+    "id": 60,
     "text": "Impossible is a word to be found only in the dictionary of fools.",
     "author": "Napoleon Bonaparte",
     "scenario": "all",
     "period": "Napoleonic Era"
   },
   {
-    "id": 15,
+    "id": 61,
     "text": "Victorious warriors win first and then go to war.",
     "author": "Sun Tzu",
     "scenario": "all",
     "period": "Ancient China"
   },
   {
-    "id": 16,
-    "text": "No plan survives first contact with the enemy.",
-    "author": "Helmuth von Moltke the Elder",
+    "id": 62,
+    "text": "War is the father of all and king of all.",
+    "author": "Heraclitus",
     "scenario": "all",
-    "period": "19th Century"
+    "period": "Ancient Greece"
   },
   {
-    "id": 17,
-    "text": "The more you know, the less you fear.",
-    "author": "Alexander Suvorov",
+    "id": 63,
+    "text": "The unexamined life is not worth living.",
+    "author": "Socrates",
     "scenario": "all",
-    "period": "Russian Empire"
+    "period": "Ancient Greece"
   },
   {
-    "id": 18,
-    "text": "Discipline is the soul of an army.",
-    "author": "George Washington",
+    "id": 64,
+    "text": "No great thing is created suddenly.",
+    "author": "Epictetus",
     "scenario": "all",
-    "period": "American Revolution"
+    "period": "Roman Empire"
+  },
+  {
+    "id": 65,
+    "text": "Difficulties strengthen the mind, as labor does the body.",
+    "author": "Seneca",
+    "scenario": "all",
+    "period": "Roman Empire"
+  },
+  {
+    "id": 66,
+    "text": "The sinews of war are infinite money.",
+    "author": "Marcus Tullius Cicero",
+    "scenario": "all",
+    "period": "Roman Republic"
+  },
+  {
+    "id": 67,
+    "text": "Laws are silent in times of war.",
+    "author": "Marcus Tullius Cicero",
+    "scenario": "all",
+    "period": "Roman Republic"
+  },
+  {
+    "id": 68,
+    "text": "The best revenge is not to be like your enemy.",
+    "author": "Marcus Aurelius",
+    "scenario": "all",
+    "period": "Roman Empire"
+  },
+  {
+    "id": 69,
+    "text": "The strong do what they can and the weak suffer what they must.",
+    "author": "Thucydides",
+    "scenario": "all",
+    "period": "Ancient Greece"
   }
 ]
