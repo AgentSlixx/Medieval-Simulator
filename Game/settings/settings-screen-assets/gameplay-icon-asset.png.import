@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dffeah6iht6g1"
-path="res://.godot/imported/start-screen-background.png-d6c63c262638261301d1c1340ed4df0e.ctex"
+uid="uid://dkmkmygmewj8r"
+path="res://.godot/imported/gameplay-icon-asset.png-da4a1bddc0665ad91b025bdaaab885fc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://start-screen-assets/start-screen-background.png"
-dest_files=["res://.godot/imported/start-screen-background.png-d6c63c262638261301d1c1340ed4df0e.ctex"]
+source_file="res://settings/settings-screen-assets/gameplay-icon-asset.png"
+dest_files=["res://.godot/imported/gameplay-icon-asset.png-da4a1bddc0665ad91b025bdaaab885fc.ctex"]
 
 [params]
 

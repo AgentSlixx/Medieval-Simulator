@@ -21,3 +21,7 @@ func _on_selectscenariobutton_pressed() -> void:
 
 func _on_exitgamebutton_pressed() -> void:
 	get_tree().quit() #closes the game
+
+
+func _on_settingsgamebutton_pressed() -> void:
+	get_tree().change_scene_to_file("res://settings/settings-screen.tscn")

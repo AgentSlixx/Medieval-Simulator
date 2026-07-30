@@ -1,5 +1,5 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1785180716
+::res://::1785423197
 new_game_option.gd::GDScript::6856262101669108523::1784808028::0::1::::<>Node<><>0<>0<><>::
 ::res://fonts/::1785141788
 ::res://fonts/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/::1785141819
@@ -96,11 +96,11 @@ LICENSE.txt::TextFile::-1::1785141791::0::1::::<><><>0<>0<><>::
 ::res://fonts/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/xolonium/xolonium-fonts-4.1/ttf/::1785141818
 Xolonium-Bold.ttf::FontFile::4167985684614408575::1785141791::1785141818::1::::<><><>0<>0<>4802ca957f89bd378d3d233c9d76108c<>res://.godot/imported/Xolonium-Bold.ttf-b4ba423897f91163b8966a0af7899618.fontdata::
 Xolonium-Regular.ttf::FontFile::3951762632438403737::1785141791::1785141818::1::::<><><>0<>0<>d819e97ed84d50c77ecc3c44523191a1<>res://.godot/imported/Xolonium-Regular.ttf-0a3bbbcb90abd7408cc211dcd1c5c260.fontdata::
-::res://Legacy-of-Empires-quotes-facts-tips-text/::1785146624
+::res://Legacy-of-Empires-quotes-facts-tips-text/::1785256510
 authors.json::JSON::-1::1785143449::0::1::::<><><>0<>0<><>::
 historical_facts.json::JSON::-1::1785143449::0::1::::<><><>0<>0<><>::
 loading_tips.json::JSON::-1::1785143449::0::1::::<><><>0<>0<><>::
-quotes.json::JSON::-1::1785146604::0::1::::<><><>0<>0<><>::
+quotes.json::JSON::-1::1785186714::0::1::::<><><>0<>0<><>::
 ::res://map-selection-screen-assets/::1784738863
 istockphoto-1346709051-612x612.jpg::CompressedTexture2D::22554409087363529::1784735903::1784738863::1::::<><><>0<>0<>90750b095ba4f91d91396bcb5a33a3bf<>res://.godot/imported/istockphoto-1346709051-612x612.jpg-289454b40497d0e372f6c4e33e983c34.ctex::
 ::res://map-selection-screen-scene/::1784823534
@@ -108,8 +108,19 @@ map-selection-screen.tscn::PackedScene::8444241258994845440::1784823534::0::1:::
 map_selection_screen.gd::GDScript::357777563380180847::1784823534::0::1::::<>Node2D<><>0<>0<><>::
 ::res://scripts/::1785149796
 RandomTextScript.gd::GDScript::4087543386294069309::1785149796::0::1::::<>Node<><>0<>0<><>::
-::res://start-screen-assets/::1785142511
-ChatGPT Image Jul 27, 2026, 10_54_42 AM.png::CompressedTexture2D::7520771441936838314::1785142509::1785142511::1::::<><><>0<>0<>a97acdf71415155acfb77ca70f96e1ea<>res://.godot/imported/ChatGPT Image Jul 27, 2026, 10_54_42 AM.png-14243ea3229468d248b4b3d11ecd9d1e.ctex::
+::res://settings/::1785429839
+settings-screen-script.gd::GDScript::7583946151976014505::1785427162::0::1::::<>Node<><>0<>0<><>::
+settings-screen.tscn::PackedScene::8587874193684958671::1785429839::0::1::::<><><>0<>0<><>::uid://wpnisrsqmvy2::::res://settings/settings_screen_background_asset.png<>uid://dgbyqq1fo5bqv::::res://settings/settings-screen-script.gd<>uid://bkc5g60iau41t::::res://settings/settings-screen-assets/volume-icon-asset.png<>uid://b0ifngnbhljtl::::res://settings/settings-screen-assets/graphics-icon-asset.png<>uid://bb7su7jph46p::::res://settings/settings-screen-assets/controls-icon-asset.png<>uid://dkmkmygmewj8r::::res://settings/settings-screen-assets/gameplay-icon-asset.png<>uid://d21n8w7xf8hsf::::res://settings/settings-screen-assets/restore-defaults-icon-asset.png
+settings_screen_background_asset.png::CompressedTexture2D::1575924806126505727::1785423127::1785423136::1::::<><><>0<>0<>5c56b998c342bc8e34fb6609828e0c64<>res://.godot/imported/settings_screen_background_asset.png-d5ff3875b63f521e8873b2c05c728793.ctex::
+::res://settings/settings-screen-assets/::1785430318
+controls-icon-asset.png::CompressedTexture2D::74229409780924905::1785429626::1785429626::1::::<><><>0<>0<>50244014362a8084fa0fd68312ec5990<>res://.godot/imported/controls-icon-asset.png-8d9d64ee5448ff0cbdb7b6dd5c7f3d03.ctex::
+gameplay-icon-asset.png::CompressedTexture2D::7886552890343544327::1785429743::1785429743::1::::<><><>0<>0<>489cc95c54ae65c12781a817f823a86f<>res://.godot/imported/gameplay-icon-asset.png-da4a1bddc0665ad91b025bdaaab885fc.ctex::
+graphics-icon-asset.png::CompressedTexture2D::4157983932238776285::1785429533::1785429533::1::::<><><>0<>0<>13049d2d5e4aae8c77943668e3dbda21<>res://.godot/imported/graphics-icon-asset.png-6bb4554133ac5842f8355c18f8fc7bc9.ctex::
+interface-icon-asset.png::CompressedTexture2D::8601998711721413856::1785430318::1785430318::1::::<><><>0<>0<>90299224888f76828232380c3d7fec78<>res://.godot/imported/interface-icon-asset.png-4ff660fd6b52704946fd1cdbff9d855d.ctex::
+language-icon-asset.png::CompressedTexture2D::3046924532776618897::1785430318::1785430318::1::::<><><>0<>0<>1bdcafc79053452ece2352d56cc5499f<>res://.godot/imported/language-icon-asset.png-cb45817f0dccf10478947996d5957477.ctex::
+restore-defaults-icon-asset.png::CompressedTexture2D::9108884109017003965::1785429822::1785429822::1::::<><><>0<>0<>2118bf29a374b57547fb896fdb252f64<>res://.godot/imported/restore-defaults-icon-asset.png-6e85dc4c8f9a5ce88c434cd3cae07092.ctex::
+volume-icon-asset.png::CompressedTexture2D::3094271767336236507::1785427575::1785427575::1::::<><><>0<>0<>f06426b7bbd4c5b5d6ffc3b6e58d5426<>res://.godot/imported/volume-icon-asset.png-60a82ace8c23c1ffced23602f6177de2.ctex::
+::res://start-screen-assets/::1785423198
 flag.png::CompressedTexture2D::4933026074634285552::1784816955::1784816955::1::::<><><>0<>0<>ccbdab42f27cd046097fbf2552542c07<>res://.godot/imported/flag.png-2e269f94560881efdfa0db9504396f27.ctex::
 pole.png::CompressedTexture2D::659911225233993358::1784816633::1784816633::1::::<><><>0<>0<>4a715f9420a4dc18ce72ca32bf58a8ab<>res://.godot/imported/pole.png-0b77cc4822aaf8d7d688c2394e1d7c4b.ctex::
 smoke-asset-4.png::CompressedTexture2D::8398216218608532588::1785015387::1785015388::1::::<><><>0<>0<>acfe85d4b1171b09f76f80d0d1a273c2<>res://.godot/imported/smoke-asset-4.png-1f844f13de03e357c4b298f47fbd3b7c.ctex::
@@ -118,10 +129,10 @@ smoke-asset-7.png::CompressedTexture2D::6852810302635163430::1785055633::1785055
 smoke-asset-8.png::CompressedTexture2D::1932440755535530494::1785056041::1785056061::1::::<><><>0<>0<>59727457acf862c8a350bd89ebfab988<>res://.godot/imported/smoke-asset-8.png-54735701a292a1040b5230e454900d3c.ctex::
 smoke-asset-9.png::CompressedTexture2D::5142286005738916596::1785058235::1785058235::1::::<><><>0<>0<>7539eeb865a979bc39e286049b2a6d77<>res://.godot/imported/smoke-asset-9.png-7fdba4888a8ebe21022a0c19916c481d.ctex::
 smoke-asset-10.png::CompressedTexture2D::3919912866792455175::1785058798::1785058798::1::::<><><>0<>0<>8536e8870bce7144cb4da9986c6e43d8<>res://.godot/imported/smoke-asset-10.png-5084a05620986131a5e65f85966642e5.ctex::
-start-screen-background.png::CompressedTexture2D::3537384693130135851::1785140357::1785140435::1::::<><><>0<>0<>f58f3e7a6c7fa5a0e946de74fb297356<>res://.godot/imported/start-screen-background.png-d6c63c262638261301d1c1340ed4df0e.ctex::
+start-screen-background.png::CompressedTexture2D::7520771441936838314::1785142509::1785423198::1::::<><><>0<>0<>80fdfd1058b450b179718d63cd424539<>res://.godot/imported/start-screen-background.png-d6c63c262638261301d1c1340ed4df0e.ctex::
 title-asset.png::CompressedTexture2D::4123205983734460795::1785140138::1785140139::1::::<><><>0<>0<>254bfd1c3bcacaa3a8d9e0783bd0cc07<>res://.godot/imported/title-asset.png-eaa64715cf517c0ce249f465008d8b0b.ctex::
-::res://start-screen-scene/::1785149796
-smoke_1.gdshader::Shader::5329424236319014286::1785140406::0::1::::<><><>0<>0<><>::
-start-screen.gdshader::Shader::4376660003785099644::1785140532::0::1::::<><><>0<>0<><>::
-start-screen.tscn::PackedScene::2344789841409544261::1785149796::0::1::::<><><>0<>0<><>::uid://carfhujlvonsb::::res://start-screen-scene/start_screen.gd<>uid://dffeah6iht6g1::::res://start-screen-assets/ChatGPT Image Jul 27, 2026, 10_54_42 AM.png<>uid://jnwv2sfi7a03::::res://start-screen-assets/pole.png<>uid://b3mc7lfg00gw7::::res://start-screen-scene/start-screen.gdshader<>uid://ccjuho31hshpw::::res://start-screen-assets/flag.png<>uid://ch6u3rlytk2gw::::res://start-screen-scene/smoke_1.gdshader<>uid://drwfnnuyn8g81::::res://start-screen-assets/smoke-asset-4.png<>uid://c4vs1w4b5ws4u::::res://start-screen-assets/smoke-asset-7.png<>uid://oiflnutn0fun::::res://start-screen-assets/smoke-asset-5.png<>uid://2sdatswfwt07::::res://start-screen-assets/smoke-asset-8.png<>uid://cfi7x1kba4kf1::::res://start-screen-assets/smoke-asset-9.png<>uid://bv33nlnn4blml::::res://start-screen-assets/smoke-asset-10.png<>uid://by0kun1ci8ajb::::res://start-screen-assets/title-asset.png<>uid://blc0j1suisswr::::res://fonts/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/linux-libertine/LinLibertine_5.3.0_2012_07_02/LinLibertineOTF_5.3.0_2012_07_02/LinLibertine_M.otf
-start_screen.gd::GDScript::4808252939625046137::1785145892::0::1::::<>Node2D<><>0<>0<><>::
+::res://start-screen-scene/::1785423466
+smoke_1.gdshader::Shader::5329424236319014286::1785423078::0::1::::<><><>0<>0<><>::
+start-screen.gdshader::Shader::4376660003785099644::1785423078::0::1::::<><><>0<>0<><>::
+start-screen.tscn::PackedScene::2344789841409544261::1785423466::0::1::::<><><>0<>0<><>::uid://carfhujlvonsb::::res://start-screen-scene/start_screen.gd<>uid://dffeah6iht6g1::::res://start-screen-assets/start-screen-background.png<>uid://jnwv2sfi7a03::::res://start-screen-assets/pole.png<>uid://b3mc7lfg00gw7::::res://start-screen-scene/start-screen.gdshader<>uid://ccjuho31hshpw::::res://start-screen-assets/flag.png<>uid://ch6u3rlytk2gw::::res://start-screen-scene/smoke_1.gdshader<>uid://drwfnnuyn8g81::::res://start-screen-assets/smoke-asset-4.png<>uid://c4vs1w4b5ws4u::::res://start-screen-assets/smoke-asset-7.png<>uid://oiflnutn0fun::::res://start-screen-assets/smoke-asset-5.png<>uid://2sdatswfwt07::::res://start-screen-assets/smoke-asset-8.png<>uid://cfi7x1kba4kf1::::res://start-screen-assets/smoke-asset-9.png<>uid://bv33nlnn4blml::::res://start-screen-assets/smoke-asset-10.png<>uid://by0kun1ci8ajb::::res://start-screen-assets/title-asset.png<>uid://blc0j1suisswr::::res://fonts/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/linux-libertine/LinLibertine_5.3.0_2012_07_02/LinLibertineOTF_5.3.0_2012_07_02/LinLibertine_M.otf
+start_screen.gd::GDScript::4808252939625046137::1785423466::0::1::::<>Node2D<><>0<>0<><>::
