@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dkmkmygmewj8r"
-path="res://.godot/imported/gameplay-icon-asset.png-da4a1bddc0665ad91b025bdaaab885fc.ctex"
+uid="uid://bcntdvbyvk561"
+path="res://.godot/imported/audio-screen-background-asset.png-d92afdf99bdf286867132e835221f1fe.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://settings/settings-screen-assets/gameplay-icon-asset.png"
-dest_files=["res://.godot/imported/gameplay-icon-asset.png-da4a1bddc0665ad91b025bdaaab885fc.ctex"]
+source_file="res://settings/audio-screen/audio-screen-assets/audio-screen-background-asset.png"
+dest_files=["res://.godot/imported/audio-screen-background-asset.png-d92afdf99bdf286867132e835221f1fe.ctex"]
 
 [params]
 

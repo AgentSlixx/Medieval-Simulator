@@ -24,4 +24,4 @@ func _on_exitgamebutton_pressed() -> void:
 
 
 func _on_settingsgamebutton_pressed() -> void:
-	get_tree().change_scene_to_file("res://settings/settings-screen.tscn")
+	get_tree().change_scene_to_file("res://settings/settings-screen/settings-screen.tscn")
