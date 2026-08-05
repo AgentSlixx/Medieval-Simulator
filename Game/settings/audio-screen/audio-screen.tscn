@@ -213,6 +213,10 @@ layout_mode = 2
 offset_transform_enabled = true
 offset_transform_position = Vector2(400, 0)
 offset_transform_visual_only = false
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
 text = "ON"
 
 [node name="ShuffleMusicHBoxContainer2" type="HBoxContainer" parent="MusicPanel/VBoxContainer" unique_id=1680649392]
@@ -233,6 +237,10 @@ layout_mode = 2
 offset_transform_enabled = true
 offset_transform_position = Vector2(400, 0)
 offset_transform_visual_only = false
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.47058824, 1)
+theme_override_colors/font_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
 text = "ON"
 
 [node name="AllowCustomMusicHBoxContainer3" type="HBoxContainer" parent="MusicPanel/VBoxContainer" unique_id=1397064996]
@@ -253,6 +261,10 @@ layout_mode = 2
 offset_transform_enabled = true
 offset_transform_position = Vector2(400, 0)
 offset_transform_visual_only = false
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
 text = "ON"
 
 [node name="ButtonsHBoxContainer" type="HBoxContainer" parent="MusicPanel/VBoxContainer" unique_id=1771886005]
@@ -263,12 +275,20 @@ theme_override_constants/separation = 405
 custom_minimum_size = Vector2(200, 50)
 custom_maximum_size = Vector2(200, 200)
 layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
 text = "CUSTOM MUSIC "
 
 [node name="back-button" type="Button" parent="MusicPanel/VBoxContainer/ButtonsHBoxContainer" unique_id=1042073921]
 custom_minimum_size = Vector2(200, 50)
 custom_maximum_size = Vector2(200, 200)
 layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
 text = "BACK 
 "
 

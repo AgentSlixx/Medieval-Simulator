@@ -1,0 +1,491 @@
+[gd_scene format=3 uid="uid://dob4pb7fdkdoo"]
+
+[ext_resource type="Texture2D" uid="uid://bxtngpb6pfwvo" path="res://settings/graphics-screen/graphics-screen-assets/graphics-screen-background-asset.png" id="1_4uax3"]
+[ext_resource type="Script" uid="uid://bssb5k1wwdhbo" path="res://settings/graphics-screen/graphics-screen-script.gd" id="2_tk3ca"]
+
+[node name="GraphicsScreenScene" type="Node2D" unique_id=581411485]
+
+[node name="background-image" type="Sprite2D" parent="." unique_id=1736058538]
+position = Vector2(575.75, 323.75)
+scale = Vector2(0.8177603, 0.5708556)
+texture = ExtResource("1_4uax3")
+script = ExtResource("2_tk3ca")
+
+[node name="DisplayPanel" type="Panel" parent="." unique_id=1971378369]
+offset_left = 26.0
+offset_top = 117.0
+offset_right = 556.0
+offset_bottom = 515.0
+
+[node name="DisplayVBoxContainer" type="VBoxContainer" parent="DisplayPanel" unique_id=1499406095]
+layout_mode = 0
+offset_right = 530.0
+offset_bottom = 398.0
+theme_override_constants/separation = 15
+
+[node name="display-text-label" type="Label" parent="DisplayPanel/DisplayVBoxContainer" unique_id=844848769]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_font_sizes/font_size = 20
+text = "DISPLAY"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="DisplayPanel/DisplayVBoxContainer" unique_id=1060081249]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="ResolutionHBoxContainer" type="HBoxContainer" parent="DisplayPanel/DisplayVBoxContainer/VBoxContainer" unique_id=1207461669]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_constants/separation = 120
+
+[node name="resolution-label" type="Label" parent="DisplayPanel/DisplayVBoxContainer/VBoxContainer/ResolutionHBoxContainer" unique_id=559558670]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_font_sizes/font_size = 18
+text = "Resolution"
+
+[node name="resolution-option-button" type="OptionButton" parent="DisplayPanel/DisplayVBoxContainer/VBoxContainer/ResolutionHBoxContainer" unique_id=1343697074]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_pressed_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_hover_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+alignment = 1
+selected = 0
+item_count = 1
+popup/item_0/text = "1920 x 1080"
+popup/item_0/id = 0
+
+[node name="DisplayModeHBoxContainer" type="HBoxContainer" parent="DisplayPanel/DisplayVBoxContainer/VBoxContainer" unique_id=1522588522]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_constants/separation = 120
+
+[node name="display-mode-label" type="Label" parent="DisplayPanel/DisplayVBoxContainer/VBoxContainer/DisplayModeHBoxContainer" unique_id=749497052]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_font_sizes/font_size = 18
+text = "Display Mode"
+
+[node name="display-mode-option-button" type="OptionButton" parent="DisplayPanel/DisplayVBoxContainer/VBoxContainer/DisplayModeHBoxContainer" unique_id=196017900]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_pressed_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_hover_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+alignment = 1
+selected = 0
+item_count = 1
+popup/item_0/text = "Fullscreen"
+popup/item_0/id = 0
+
+[node name="MonitorHBoxContainer" type="HBoxContainer" parent="DisplayPanel/DisplayVBoxContainer/VBoxContainer" unique_id=275118061]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_constants/separation = 120
+
+[node name="monitor-label" type="Label" parent="DisplayPanel/DisplayVBoxContainer/VBoxContainer/MonitorHBoxContainer" unique_id=1603550900]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_font_sizes/font_size = 18
+text = "Monitor"
+
+[node name="monitor-option-button" type="OptionButton" parent="DisplayPanel/DisplayVBoxContainer/VBoxContainer/MonitorHBoxContainer" unique_id=1296875994]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_pressed_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_hover_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+alignment = 1
+selected = 0
+item_count = 1
+popup/item_0/text = "1"
+popup/item_0/id = 0
+
+[node name="RefreshRateHBoxContainer" type="HBoxContainer" parent="DisplayPanel/DisplayVBoxContainer/VBoxContainer" unique_id=199570806]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_constants/separation = 120
+
+[node name="refresh-rate-label" type="Label" parent="DisplayPanel/DisplayVBoxContainer/VBoxContainer/RefreshRateHBoxContainer" unique_id=1848099171]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_font_sizes/font_size = 18
+text = "Refresh Rate"
+
+[node name="refresh-rate-option-button" type="OptionButton" parent="DisplayPanel/DisplayVBoxContainer/VBoxContainer/RefreshRateHBoxContainer" unique_id=1817162783]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_pressed_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_hover_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+alignment = 1
+selected = 0
+item_count = 1
+popup/item_0/text = "144 Hz"
+popup/item_0/id = 0
+
+[node name="FPSLimitHBoxContainer" type="HBoxContainer" parent="DisplayPanel/DisplayVBoxContainer/VBoxContainer" unique_id=290768290]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_constants/separation = 120
+
+[node name="fps-limit-label" type="Label" parent="DisplayPanel/DisplayVBoxContainer/VBoxContainer/FPSLimitHBoxContainer" unique_id=1143544718]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_font_sizes/font_size = 18
+text = "FPS Limit"
+
+[node name="fps-limit-option-button" type="OptionButton" parent="DisplayPanel/DisplayVBoxContainer/VBoxContainer/FPSLimitHBoxContainer" unique_id=1120675232]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_pressed_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_hover_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+alignment = 1
+selected = 0
+item_count = 1
+popup/item_0/text = "144 "
+popup/item_0/id = 0
+
+[node name="VSyncHBoxContainer" type="HBoxContainer" parent="DisplayPanel/DisplayVBoxContainer/VBoxContainer" unique_id=849680880]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_constants/separation = 120
+
+[node name="vsync-label" type="Label" parent="DisplayPanel/DisplayVBoxContainer/VBoxContainer/VSyncHBoxContainer" unique_id=869055956]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_font_sizes/font_size = 18
+text = "VSync"
+
+[node name="vsync-button" type="Button" parent="DisplayPanel/DisplayVBoxContainer/VBoxContainer/VSyncHBoxContainer" unique_id=1528374884]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+text = "ON"
+
+[node name="QualityPanel" type="Panel" parent="." unique_id=1394150896]
+offset_left = 592.0
+offset_top = 117.0
+offset_right = 1122.0
+offset_bottom = 617.0
+
+[node name="DisplayVBoxContainer" type="VBoxContainer" parent="QualityPanel" unique_id=1271839930]
+layout_mode = 0
+offset_right = 530.0
+offset_bottom = 398.0
+theme_override_constants/separation = 15
+
+[node name="quality-text-label" type="Label" parent="QualityPanel/DisplayVBoxContainer" unique_id=1848338248]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_font_sizes/font_size = 20
+text = "QUALITY"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="QualityPanel/DisplayVBoxContainer" unique_id=1409204688]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="TextrureQualityHBoxContainer" type="HBoxContainer" parent="QualityPanel/DisplayVBoxContainer/VBoxContainer" unique_id=711835041]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_constants/separation = 120
+
+[node name="texture-quality-label" type="Label" parent="QualityPanel/DisplayVBoxContainer/VBoxContainer/TextrureQualityHBoxContainer" unique_id=69442409]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_font_sizes/font_size = 18
+text = "Texture Quality"
+
+[node name="texture-quality-option-button" type="OptionButton" parent="QualityPanel/DisplayVBoxContainer/VBoxContainer/TextrureQualityHBoxContainer" unique_id=1762940204]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_pressed_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_hover_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+alignment = 1
+selected = 0
+item_count = 1
+popup/item_0/text = "High"
+popup/item_0/id = 0
+
+[node name="ShadowQualityHBoxContainer" type="HBoxContainer" parent="QualityPanel/DisplayVBoxContainer/VBoxContainer" unique_id=388064795]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_constants/separation = 120
+
+[node name="shadow-quality-label" type="Label" parent="QualityPanel/DisplayVBoxContainer/VBoxContainer/ShadowQualityHBoxContainer" unique_id=372176893]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_font_sizes/font_size = 18
+text = "Shadow Quality"
+
+[node name="shadow-quality-option-button" type="OptionButton" parent="QualityPanel/DisplayVBoxContainer/VBoxContainer/ShadowQualityHBoxContainer" unique_id=646654598]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_pressed_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_hover_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+alignment = 1
+selected = 0
+item_count = 1
+popup/item_0/text = "High"
+popup/item_0/id = 0
+
+[node name="WaterQualityHBoxContainer" type="HBoxContainer" parent="QualityPanel/DisplayVBoxContainer/VBoxContainer" unique_id=2055957025]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_constants/separation = 120
+
+[node name="water-quality-label" type="Label" parent="QualityPanel/DisplayVBoxContainer/VBoxContainer/WaterQualityHBoxContainer" unique_id=1384019329]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_font_sizes/font_size = 18
+text = "Water Quality"
+
+[node name="water-quality-option-button" type="OptionButton" parent="QualityPanel/DisplayVBoxContainer/VBoxContainer/WaterQualityHBoxContainer" unique_id=1770873210]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_pressed_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_hover_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+alignment = 1
+selected = 0
+item_count = 1
+popup/item_0/text = "High"
+popup/item_0/id = 0
+
+[node name="TerrainQualityHBoxContainer" type="HBoxContainer" parent="QualityPanel/DisplayVBoxContainer/VBoxContainer" unique_id=1794736148]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_constants/separation = 120
+
+[node name="terrain-quality-label" type="Label" parent="QualityPanel/DisplayVBoxContainer/VBoxContainer/TerrainQualityHBoxContainer" unique_id=509605397]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_font_sizes/font_size = 18
+text = "Terrain Quality"
+
+[node name="terrain-quality-option-button" type="OptionButton" parent="QualityPanel/DisplayVBoxContainer/VBoxContainer/TerrainQualityHBoxContainer" unique_id=1511659993]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_pressed_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_hover_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+alignment = 1
+selected = 0
+item_count = 1
+popup/item_0/text = "High"
+popup/item_0/id = 0
+
+[node name="VegetationQualityHBoxContainer" type="HBoxContainer" parent="QualityPanel/DisplayVBoxContainer/VBoxContainer" unique_id=121361042]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_constants/separation = 120
+
+[node name="vegetation-quality-label" type="Label" parent="QualityPanel/DisplayVBoxContainer/VBoxContainer/VegetationQualityHBoxContainer" unique_id=4445826]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_font_sizes/font_size = 18
+text = "Vegetation Quality"
+
+[node name="vegetation-quality-option-button" type="OptionButton" parent="QualityPanel/DisplayVBoxContainer/VBoxContainer/VegetationQualityHBoxContainer" unique_id=1390340382]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_pressed_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_hover_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+alignment = 1
+selected = 0
+item_count = 1
+popup/item_0/text = "High"
+popup/item_0/id = 0
+
+[node name="ParticleQualityHBoxContainer" type="HBoxContainer" parent="QualityPanel/DisplayVBoxContainer/VBoxContainer" unique_id=814474919]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_constants/separation = 120
+
+[node name="particle-quality-label" type="Label" parent="QualityPanel/DisplayVBoxContainer/VBoxContainer/ParticleQualityHBoxContainer" unique_id=267037199]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_font_sizes/font_size = 18
+text = "Particle Quality"
+
+[node name="particle-quality-option-button" type="OptionButton" parent="QualityPanel/DisplayVBoxContainer/VBoxContainer/ParticleQualityHBoxContainer" unique_id=111912127]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_pressed_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_hover_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+alignment = 1
+selected = 0
+item_count = 1
+popup/item_0/text = "High"
+popup/item_0/id = 0
+
+[node name="AntiAliasingHBoxContainer" type="HBoxContainer" parent="QualityPanel/DisplayVBoxContainer/VBoxContainer" unique_id=527196605]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_constants/separation = 120
+
+[node name="anti-aliasing-label" type="Label" parent="QualityPanel/DisplayVBoxContainer/VBoxContainer/AntiAliasingHBoxContainer" unique_id=1455262984]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_font_sizes/font_size = 18
+text = "Anti Aliasing"
+
+[node name="anti-aliasing-option-button" type="OptionButton" parent="QualityPanel/DisplayVBoxContainer/VBoxContainer/AntiAliasingHBoxContainer" unique_id=379668252]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_pressed_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_hover_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+alignment = 1
+
+[node name="AntropicFilteringHBoxContainer" type="HBoxContainer" parent="QualityPanel/DisplayVBoxContainer/VBoxContainer" unique_id=1330308845]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_constants/separation = 120
+
+[node name="antropic-filtering-label" type="Label" parent="QualityPanel/DisplayVBoxContainer/VBoxContainer/AntropicFilteringHBoxContainer" unique_id=238157117]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_font_sizes/font_size = 18
+text = "Antropic Filtering"
+
+[node name="antropic-filtering-option-button" type="OptionButton" parent="QualityPanel/DisplayVBoxContainer/VBoxContainer/AntropicFilteringHBoxContainer" unique_id=1183502169]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_pressed_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_hover_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+alignment = 1
+
+[node name="AmbientOcclusionHBoxContainer" type="HBoxContainer" parent="QualityPanel/DisplayVBoxContainer/VBoxContainer" unique_id=902761889]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_constants/separation = 120
+
+[node name="ambient-occlusion-label" type="Label" parent="QualityPanel/DisplayVBoxContainer/VBoxContainer/AmbientOcclusionHBoxContainer" unique_id=789025424]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_font_sizes/font_size = 18
+text = "Ambient Occlusion"
+
+[node name="ambient-occlusion-button" type="Button" parent="QualityPanel/DisplayVBoxContainer/VBoxContainer/AmbientOcclusionHBoxContainer" unique_id=855391491]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+text = "ON"
+
+[node name="BloomHBoxContainer" type="HBoxContainer" parent="QualityPanel/DisplayVBoxContainer/VBoxContainer" unique_id=1469473618]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_constants/separation = 120
+
+[node name="bloom-label" type="Label" parent="QualityPanel/DisplayVBoxContainer/VBoxContainer/BloomHBoxContainer" unique_id=996666722]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_font_sizes/font_size = 18
+text = "Bloom"
+
+[node name="bloom-button" type="Button" parent="QualityPanel/DisplayVBoxContainer/VBoxContainer/BloomHBoxContainer" unique_id=1622816982]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+text = "ON"
+
+[node name="MotionBlurHBoxContainer" type="HBoxContainer" parent="QualityPanel/DisplayVBoxContainer/VBoxContainer" unique_id=1931871849]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_constants/separation = 120
+
+[node name="motion-blur-label" type="Label" parent="QualityPanel/DisplayVBoxContainer/VBoxContainer/MotionBlurHBoxContainer" unique_id=647996174]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_font_sizes/font_size = 18
+text = "Motion Blur"
+
+[node name="motion-blur-button" type="Button" parent="QualityPanel/DisplayVBoxContainer/VBoxContainer/MotionBlurHBoxContainer" unique_id=1692922714]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+text = "ON"
+
+[node name="DepthOfFieldHBoxContainer" type="HBoxContainer" parent="QualityPanel/DisplayVBoxContainer/VBoxContainer" unique_id=1915066155]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_constants/separation = 120
+
+[node name="depth-of-field-label" type="Label" parent="QualityPanel/DisplayVBoxContainer/VBoxContainer/DepthOfFieldHBoxContainer" unique_id=2058258911]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_font_sizes/font_size = 18
+text = "Depth of Field"
+
+[node name="depth-of-field-button" type="Button" parent="QualityPanel/DisplayVBoxContainer/VBoxContainer/DepthOfFieldHBoxContainer" unique_id=468321358]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+text = "ON"
+
+[node name="back-button" type="Button" parent="." unique_id=5351970]
+offset_left = 165.0
+offset_top = 527.0
+offset_right = 365.0
+offset_bottom = 587.0
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+text = "BACK"
+
+[connection signal="pressed" from="back-button" to="background-image" method="_on_button_pressed"]

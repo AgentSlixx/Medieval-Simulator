@@ -186,4 +186,5 @@ theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_3e7dv")
 text = "BACK"
 
 [connection signal="pressed" from="VBoxContainer/audio-button" to="." method="_on_audiobutton_pressed"]
+[connection signal="pressed" from="VBoxContainer/graphics-button" to="." method="_on_graphicsbutton_pressed"]
 [connection signal="pressed" from="BACK" to="." method="_on_back_pressed"]
