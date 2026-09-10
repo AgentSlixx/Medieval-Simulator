@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://pkvviya6xi0n"]
+
+[ext_resource type="Script" uid="uid://d4gvk26buv3ci" path="res://settings/restore-defaults-screen/restore-defaults-screen-script.gd" id="1_fgmd2"]
+
+[node name="RestoreDefaultsScreen" type="Node2D" unique_id=234508021]
+script = ExtResource("1_fgmd2")
+
+[node name="background-image" type="Sprite2D" parent="." unique_id=177888316]

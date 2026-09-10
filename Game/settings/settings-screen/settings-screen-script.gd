@@ -25,3 +25,11 @@ func _on_graphicsbutton_pressed() -> void:
 
 func _on_gameplaybutton_pressed() -> void:
 	get_tree().change_scene_to_file("res://settings/gameplay-screen/gameplay-screen.tscn")
+
+
+func _on_controlsbutton_pressed() -> void:
+	get_tree().change_scene_to_file("res://settings/controls-screen/controls-screen.tscn")
+
+
+func _on_languagebutton_pressed() -> void:
+	get_tree().change_scene_to_file("res://settings/language-screen/language-screen.tscn")
