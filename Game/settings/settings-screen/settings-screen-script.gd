@@ -12,7 +12,7 @@ func _process(delta: float) -> void:
 
 
 func _on_back_pressed() -> void:
-	get_tree().change_scene_to_file("res://start-screen-scene/start-screen.tscn")
+	get_tree().change_scene_to_file("res://start-screen/start-screen.tscn")
 
 
 func _on_audiobutton_pressed() -> void:
@@ -33,3 +33,7 @@ func _on_controlsbutton_pressed() -> void:
 
 func _on_languagebutton_pressed() -> void:
 	get_tree().change_scene_to_file("res://settings/language-screen/language-screen.tscn")
+
+
+func _on_restoredefaultsbutton_pressed() -> void:
+	get_tree().change_scene_to_file("res://settings/restore-defaults-screen/restore-defaults-screen.tscn")

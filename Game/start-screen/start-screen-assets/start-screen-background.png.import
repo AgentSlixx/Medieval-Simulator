@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://2sdatswfwt07"
-path="res://.godot/imported/smoke-asset-8.png-54735701a292a1040b5230e454900d3c.ctex"
+uid="uid://dffeah6iht6g1"
+path="res://.godot/imported/start-screen-background.png-27998a7da83e329029a7d0e42e6f3e87.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://start-screen-assets/smoke-asset-8.png"
-dest_files=["res://.godot/imported/smoke-asset-8.png-54735701a292a1040b5230e454900d3c.ctex"]
+source_file="res://start-screen/start-screen-assets/start-screen-background.png"
+dest_files=["res://.godot/imported/start-screen-background.png-27998a7da83e329029a7d0e42e6f3e87.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://jnwv2sfi7a03"
-path="res://.godot/imported/pole.png-0b77cc4822aaf8d7d688c2394e1d7c4b.ctex"
+uid="uid://k6p52j7nny4"
+path="res://.godot/imported/istockphoto-1346709051-612x612.jpg-24e11746c52bf90dd6e768da921c19a4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://start-screen-assets/pole.png"
-dest_files=["res://.godot/imported/pole.png-0b77cc4822aaf8d7d688c2394e1d7c4b.ctex"]
+source_file="res://map-selection-screen/map-selection-screen-assets/istockphoto-1346709051-612x612.jpg"
+dest_files=["res://.godot/imported/istockphoto-1346709051-612x612.jpg-24e11746c52bf90dd6e768da921c19a4.ctex"]
 
 [params]
 

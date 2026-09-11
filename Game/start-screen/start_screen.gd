@@ -16,7 +16,7 @@ func _process(delta: float) -> void:
 
 
 func _on_selectscenariobutton_pressed() -> void:
-	get_tree().change_scene_to_file("res://map-selection-screen-scene//map-selection-screen.tscn")
+	get_tree().change_scene_to_file("res://map-selection-screen//map-selection-screen.tscn")
 	 
 
 func _on_exitgamebutton_pressed() -> void:
@@ -25,3 +25,7 @@ func _on_exitgamebutton_pressed() -> void:
 
 func _on_settingsgamebutton_pressed() -> void:
 	get_tree().change_scene_to_file("res://settings/settings-screen/settings-screen.tscn")
+
+
+func _on_creditsgamebutton_pressed() -> void:
+	get_tree().change_scene_to_file("res://credits-screen/credits-screen.tscn")

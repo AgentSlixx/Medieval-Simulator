@@ -1,0 +1,182 @@
+[gd_scene format=3 uid="uid://demyt6allq86w"]
+
+[ext_resource type="Script" uid="uid://sa2bho0cl3m7" path="res://credits-screen/credits-screen-script.gd" id="1_8j0xv"]
+[ext_resource type="Texture2D" uid="uid://dlaisvhqmkolp" path="res://credits-screen/credits-screen-assets/credits-screen-background-asset.png" id="2_rki6m"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xqw2s"]
+bg_color = Color(0, 0, 0, 0.73)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.6421665, 0.5657284, 0.38109186, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_j2m3d"]
+bg_color = Color(0, 0, 0, 0.8)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jb161"]
+bg_color = Color(0, 0, 0, 0.90000004)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.84705883, 0.6862745, 0.4509804, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_decgc"]
+bg_color = Color(0, 0, 0, 0.90000004)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.84705883, 0.6862745, 0.4509804, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[node name="CreditsScreen" type="Node2D" unique_id=1529425385]
+script = ExtResource("1_8j0xv")
+
+[node name="backround-image" type="Sprite2D" parent="." unique_id=2014057925]
+position = Vector2(575.625, 322.1875)
+scale = Vector2(0.6858553, 0.68185437)
+texture = ExtResource("2_rki6m")
+
+[node name="LanguagePanel" type="Panel" parent="." unique_id=687648832]
+offset_left = 161.0
+offset_top = 150.0
+offset_right = 991.0
+offset_bottom = 531.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_xqw2s")
+
+[node name="title-text-label" type="Label" parent="LanguagePanel" unique_id=1945082829]
+layout_mode = 0
+offset_left = 9.0
+offset_top = 20.0
+offset_right = 821.0
+offset_bottom = 71.0
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_font_sizes/font_size = 37
+text = "LEGACY OF EMPIRES"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="programming-text-label" type="Label" parent="LanguagePanel" unique_id=1079170187]
+layout_mode = 0
+offset_left = 9.0
+offset_top = 85.0
+offset_right = 821.0
+offset_bottom = 112.0
+offset_transform_enabled = true
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_font_sizes/font_size = 24
+text = "PROGRAMMING"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="programming-names-text-label2" type="Label" parent="LanguagePanel" unique_id=2097498550]
+layout_mode = 0
+offset_left = 9.0
+offset_top = 119.0
+offset_right = 821.0
+offset_bottom = 153.0
+offset_transform_enabled = true
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_font_sizes/font_size = 19
+text = "Lazar, Slixx"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="art-text-label" type="Label" parent="LanguagePanel" unique_id=1864835963]
+layout_mode = 0
+offset_left = 9.0
+offset_top = 167.0
+offset_right = 821.0
+offset_bottom = 201.0
+offset_transform_enabled = true
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_font_sizes/font_size = 24
+text = "ART"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="programming-names-text-label" type="Label" parent="LanguagePanel" unique_id=1421233300]
+layout_mode = 0
+offset_left = 9.0
+offset_top = 201.0
+offset_right = 821.0
+offset_bottom = 235.0
+offset_transform_enabled = true
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_font_sizes/font_size = 19
+text = "Lazar, Slixx"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="special-thanks-text-label" type="Label" parent="LanguagePanel" unique_id=535685236]
+layout_mode = 0
+offset_left = 9.0
+offset_top = 249.0
+offset_right = 821.0
+offset_bottom = 283.0
+offset_transform_enabled = true
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_font_sizes/font_size = 24
+text = "SPECIAL THANKS"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="special-thanks-text-label2" type="Label" parent="LanguagePanel" unique_id=1251275069]
+layout_mode = 0
+offset_left = 9.0
+offset_top = 283.0
+offset_right = 821.0
+offset_bottom = 317.0
+offset_transform_enabled = true
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_font_sizes/font_size = 19
+text = "To our families and everyone who supports us."
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="info-text-label" type="Label" parent="LanguagePanel" unique_id=1862050065]
+layout_mode = 0
+offset_left = 9.0
+offset_top = 327.0
+offset_right = 821.0
+offset_bottom = 361.0
+offset_transform_enabled = true
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_font_sizes/font_size = 19
+text = "Built as a student game project."
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="back-button" type="Button" parent="." unique_id=1773000895]
+offset_left = 473.0
+offset_top = 549.0
+offset_right = 673.0
+offset_bottom = 609.0
+theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
+theme_override_colors/font_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 0.8627451, 0.47058824, 1)
+theme_override_styles/normal = SubResource("StyleBoxFlat_j2m3d")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_jb161")
+theme_override_styles/hover = SubResource("StyleBoxFlat_decgc")
+text = "BACK"
+
+[connection signal="pressed" from="back-button" to="." method="_on_backbutton_pressed"]
