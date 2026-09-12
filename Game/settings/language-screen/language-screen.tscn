@@ -427,9 +427,9 @@ theme_override_font_sizes/font_size = 15
 text = "Language changes will apply to all supported UI text."
 
 [node name="back-button" type="Button" parent="." unique_id=704661986]
-offset_left = 473.0
+offset_left = 476.0
 offset_top = 551.0
-offset_right = 673.0
+offset_right = 676.0
 offset_bottom = 611.0
 theme_override_colors/font_color = Color(0.84705883, 0.69803923, 0.4117647, 1)
 theme_override_colors/font_pressed_color = Color(1, 0.8627451, 0.47058824, 1)

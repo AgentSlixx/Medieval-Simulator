@@ -37,3 +37,7 @@ func _on_languagebutton_pressed() -> void:
 
 func _on_restoredefaultsbutton_pressed() -> void:
 	get_tree().change_scene_to_file("res://settings/restore-defaults-screen/restore-defaults-screen.tscn")
+
+
+func _on_interfacebutton_pressed() -> void:
+	get_tree().change_scene_to_file("res://settings/interface-screen/interface-screen.tscn")

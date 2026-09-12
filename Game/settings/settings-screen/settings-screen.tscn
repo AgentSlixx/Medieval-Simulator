@@ -189,6 +189,7 @@ text = "BACK"
 [connection signal="pressed" from="VBoxContainer/graphics-button" to="." method="_on_graphicsbutton_pressed"]
 [connection signal="pressed" from="VBoxContainer/controls-button" to="." method="_on_controlsbutton_pressed"]
 [connection signal="pressed" from="VBoxContainer/gameplay-button" to="." method="_on_gameplaybutton_pressed"]
+[connection signal="pressed" from="VBoxContainer/interface-button" to="." method="_on_interfacebutton_pressed"]
 [connection signal="pressed" from="VBoxContainer/language-button" to="." method="_on_languagebutton_pressed"]
 [connection signal="pressed" from="VBoxContainer/restore-defaults-button" to="." method="_on_restoredefaultsbutton_pressed"]
 [connection signal="pressed" from="BACK" to="." method="_on_back_pressed"]
