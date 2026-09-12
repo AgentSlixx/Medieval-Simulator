@@ -13,3 +13,6 @@ func _process(delta: float) -> void:
 
 func _on_back_pressed() -> void:
 	get_tree().change_scene_to_file("res://start-screen//start-screen.tscn")
+
+func _on_second_punic_war_pressed() -> void:
+	get_tree().change_scene_to_file("res://GameMap/GameScene.tscn")

@@ -83,4 +83,5 @@ layout_mode = 2
 theme_override_font_sizes/font_size = 26
 text = "Back"
 
+[connection signal="pressed" from="Control/VBoxContainer/Second Punic War" to="." method="_on_second_punic_war_pressed"]
 [connection signal="pressed" from="Control/HBoxContainer/Back" to="." method="_on_back_pressed"]
